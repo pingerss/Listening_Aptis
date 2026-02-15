@@ -9,21 +9,21 @@ const McqQuestion = ({ question, options, selectedAnswer, onSelect, showResult, 
 
     return (
         <div
-            className="bg-slate-900/40 border border-white/10 p-6 md:p-10 rounded-[2.5rem] flex flex-col gap-10 hover:border-indigo-500/30 transition-colors duration-300 group"
+            className="bg-slate-900/40 border border-white/10 p-4 md:p-6 rounded-2xl flex flex-col gap-4 hover:border-indigo-500/30 transition-colors duration-300 group"
         >
-            <div className="flex flex-col gap-6">
-                <div className="flex items-center gap-4">
-                    <span className="flex-shrink-0 w-12 h-12 rounded-2xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center font-black text-xl border border-indigo-500/20">
+            <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-3">
+                    <span className="flex-shrink-0 w-8 h-8 rounded-lg bg-indigo-500/10 text-indigo-400 flex items-center justify-center font-black text-sm border border-indigo-500/20">
                         {index + 1}
                     </span>
                     <div className="h-px flex-1 bg-gradient-to-r from-indigo-500/20 to-transparent" />
                 </div>
-                <h4 className="text-3xl font-black text-white leading-tight tracking-tight uppercase group-hover:text-indigo-400 transition-colors">
+                <h4 className="text-lg md:text-xl font-black text-white leading-tight tracking-tight uppercase group-hover:text-indigo-400 transition-colors">
                     {questionText}
                 </h4>
             </div>
 
-            <div className="grid gap-4">
+            <div className="grid gap-2">
                 {options.map((option, idx) => {
                     const isSelected = selectedAnswer === option;
                     const isCorrect = option === correctAnswer;
@@ -36,7 +36,7 @@ const McqQuestion = ({ question, options, selectedAnswer, onSelect, showResult, 
                             onClick={() => !showResult && onSelect(option)}
                             disabled={showResult}
                             className={`
-                                w-full p-6 rounded-2xl text-left transition-all duration-300 flex items-center gap-4
+                                w-full p-3 md:p-4 rounded-xl text-left transition-all duration-300 flex items-center gap-3
                                 ${isSelected
                                     ? 'bg-indigo-600 border-indigo-500 shadow-xl shadow-indigo-600/20 ring-2 ring-indigo-400/50 scale-[1.02]'
                                     : 'bg-slate-900 border border-slate-700/50 hover:border-indigo-500/50 hover:bg-slate-800/50'}
@@ -46,16 +46,16 @@ const McqQuestion = ({ question, options, selectedAnswer, onSelect, showResult, 
                             `}
                         >
                             <div className={`
-                                w-12 h-12 rounded-xl flex items-center justify-center text-xl font-black transition-colors
+                                w-8 h-8 rounded-lg flex items-center justify-center text-sm font-black transition-colors
                                 ${isSelected ? 'bg-white/20 text-white' : 'bg-slate-800 text-slate-400'}
                                 ${showSuccess ? 'bg-emerald-400/20 text-white' : ''}
                                 ${showDanger ? 'bg-rose-400/20 text-white' : ''}
                             `}>
                                 {String.fromCharCode(65 + idx)}
                             </div>
-                            <span className="text-xl font-bold flex-1">{option}</span>
-                            {showSuccess && <Check className="w-6 h-6 text-white" />}
-                            {showDanger && <X className="w-6 h-6 text-white" />}
+                            <span className="text-base font-bold flex-1">{option}</span>
+                            {showSuccess && <Check className="w-5 h-5 text-white" />}
+                            {showDanger && <X className="w-5 h-5 text-white" />}
                         </button>
                     );
                 })}
@@ -64,20 +64,20 @@ const McqQuestion = ({ question, options, selectedAnswer, onSelect, showResult, 
             {/* Translation & Explanation Feedback */}
             {showResult && (translation || explanation) && (
                 <div
-                    className="mt-4 pt-8 border-t border-slate-700/50 space-y-4"
+                    className="mt-2 pt-4 border-t border-slate-700/50 space-y-3"
                 >
                     {translation && (
-                        <div className="bg-slate-900/50 p-6 rounded-2xl border border-slate-700/30">
-                            <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-2">🇻🇳 Dịch nghĩa</p>
-                            <p className="text-2xl font-bold text-slate-100 italic leading-relaxed">
+                        <div className="bg-slate-900/50 p-4 rounded-xl border border-slate-700/30">
+                            <p className="text-indigo-400 font-bold text-xs uppercase tracking-widest mb-1">🇻🇳 Dịch nghĩa</p>
+                            <p className="text-base font-bold text-slate-100 italic leading-relaxed">
                                 {translation}
                             </p>
                         </div>
                     )}
                     {explanation && (
-                        <div className="bg-emerald-500/10 p-6 rounded-2xl border border-emerald-500/20">
-                            <p className="text-emerald-400 font-bold text-sm uppercase tracking-widest mb-2">💡 Giải thích</p>
-                            <p className="text-xl font-bold text-emerald-100 leading-relaxed">
+                        <div className="bg-emerald-500/10 p-4 rounded-xl border border-emerald-500/20">
+                            <p className="text-emerald-400 font-bold text-xs uppercase tracking-widest mb-1">💡 Giải thích</p>
+                            <p className="text-base font-bold text-emerald-100 leading-relaxed">
                                 {explanation}
                             </p>
                         </div>
@@ -89,3 +89,4 @@ const McqQuestion = ({ question, options, selectedAnswer, onSelect, showResult, 
 };
 
 export default McqQuestion;
+

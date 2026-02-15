@@ -51,58 +51,45 @@ const QuizView = ({ test, onBack }) => {
 
     return (
         <div className="flex flex-col gap-12 pb-32">
-            {/* Sticky Header + Tabs */}
-            <div className="sticky top-24 z-40 bg-[#0a0e1a]/95 backdrop-blur-md pb-6 -mx-6 px-6 pt-4">
-                {/* Quiz Header */}
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 border-b border-white/5 pb-6">
-                    <div className="flex flex-col gap-3">
+            {/* Sticky Header + Tabs - Compact */}
+            <div className="sticky top-24 z-40 bg-[#0a0e1a]/95 backdrop-blur-md pb-2 -mx-6 px-6 pt-2">
+                {/* Quiz Header - single compact row */}
+                <div className="flex items-center justify-between gap-3 pb-2 border-b border-white/5">
+                    <div className="flex items-center gap-2 min-w-0">
                         <button
                             onClick={onBack}
-                            className="group flex items-center gap-3 text-slate-400 hover:text-white transition-all font-black uppercase text-xs tracking-widest"
+                            className="flex-shrink-0 w-7 h-7 rounded-md bg-slate-900 border border-white/10 flex items-center justify-center hover:border-indigo-500/40 transition-colors"
                         >
-                            <div className="w-10 h-10 rounded-xl bg-slate-900 border border-white/10 flex items-center justify-center group-hover:border-indigo-500/40 transition-colors">
-                                <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
-                            </div>
-                            Exit Module
+                            <ArrowLeft className="w-3.5 h-3.5 text-slate-400" />
                         </button>
-                        <div className="space-y-1">
-                            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase leading-none">
-                                {test.title}
-                            </h2>
-                            <div className="flex items-center gap-4 text-slate-500">
-                                <span className="text-sm font-black uppercase tracking-wider">Practice Session</span>
-                                <div className="w-1.5 h-1.5 rounded-full bg-indigo-500" />
-                                <span className="text-sm font-black uppercase tracking-wider">High Fidelity</span>
-                            </div>
-                        </div>
+                        <h2 className="text-base md:text-lg font-black text-white tracking-tight uppercase leading-none truncate">
+                            {test.title}
+                        </h2>
                     </div>
-                    <div className="flex items-center gap-4 bg-slate-900/60 border border-white/10 p-3 rounded-2xl self-start md:self-center">
-                        <Target className="w-5 h-5 text-indigo-400" />
-                        <div className="flex flex-col">
-                            <span className="text-[10px] font-black uppercase tracking-widest text-slate-500">Current Progress</span>
-                            <span className="text-lg font-black text-white">{Object.keys(answers).length + Object.keys(matchingAnswers).length + Object.keys(opinionAnswers).length} / {total} Done</span>
-                        </div>
+                    <div className="flex items-center gap-1.5 bg-slate-900/60 border border-white/10 px-2.5 py-1 rounded-lg flex-shrink-0">
+                        <Target className="w-3.5 h-3.5 text-indigo-400" />
+                        <span className="text-xs font-black text-white">{Object.keys(answers).length + Object.keys(matchingAnswers).length + Object.keys(opinionAnswers).length}/{total}</span>
                     </div>
                 </div>
 
-                {/* Navigation Tabs */}
-                <div className="flex flex-wrap gap-3 bg-slate-900/60 p-2 rounded-[2.2rem] border border-white/5 overflow-hidden mt-4">
+                {/* Navigation Tabs - compact */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-1 bg-slate-900/60 p-1 rounded-lg border border-white/5 mt-1.5">
                     {[
-                        { id: 'mcq', label: 'Part 1: C1 - C13', icon: LayoutGrid },
-                        { id: 'task14', label: 'Part 2: Task 14', icon: Headphones },
-                        { id: 'task15', label: 'Part 3: Task 15', icon: Target },
-                        { id: 'extra', label: 'Part 4: C16 - C17', icon: LayoutGrid }
+                        { id: 'mcq', label: 'Part 1', icon: LayoutGrid },
+                        { id: 'task14', label: 'Part 2', icon: Headphones },
+                        { id: 'task15', label: 'Part 3', icon: Target },
+                        { id: 'extra', label: 'Part 4', icon: LayoutGrid }
                     ].map(tab => (
                         <button
                             key={tab.id}
                             onClick={() => setActiveTab(tab.id)}
-                            className={`flex-1 flex items-center justify-center gap-3 px-6 py-4 rounded-[1.8rem] text-sm font-black uppercase tracking-widest transition-all
+                            className={`flex items-center justify-center gap-1.5 px-2 py-2 rounded-md text-[11px] font-black uppercase tracking-wider transition-all
                             ${activeTab === tab.id
-                                    ? 'bg-indigo-600 text-white shadow-2xl shadow-indigo-600/40'
-                                    : 'text-slate-500 hover:text-white hover:bg-white/5 whitespace-nowrap'}
+                                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                                    : 'text-slate-500 hover:text-white hover:bg-white/5'}
                         `}
                         >
-                            <tab.icon className="w-5 h-5" />
+                            <tab.icon className="w-3 h-3" />
                             {tab.label}
                         </button>
                     ))}
@@ -118,7 +105,7 @@ const QuizView = ({ test, onBack }) => {
                         className="min-h-[500px]"
                     >
                         {activeTab === 'mcq' && (
-                            <div className="flex flex-col gap-8">
+                            <div className="flex flex-col gap-4">
                                 {test.questions.map((q, idx) => (
                                     <McqQuestion
                                         key={q.id}

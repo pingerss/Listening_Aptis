@@ -1,11 +1,10 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { User, CheckCircle, Info, BookOpen } from 'lucide-react';
 
 const MatchingQuestion = ({ task, answers, onSelect, showResult }) => {
     return (
         <div className="flex flex-col gap-10">
-            <div className="bg-slate-900/40 backdrop-blur-3xl border border-white/10 p-10 rounded-[3rem] space-y-12">
+            <div className="bg-slate-900/40 border border-white/10 p-6 md:p-10 rounded-[3rem] space-y-12">
                 <div className="space-y-2">
                     <div className="flex items-center gap-3 text-indigo-400 font-black uppercase text-xs tracking-[0.2em] mb-4">
                         <Info className="w-4 h-4" />
@@ -56,40 +55,36 @@ const MatchingQuestion = ({ task, answers, onSelect, showResult }) => {
                 </div>
             </div>
 
-            <AnimatePresence>
-                {showResult && (
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="space-y-8"
-                    >
-                        <div className="flex items-center gap-4 text-emerald-400 px-2">
-                            <BookOpen className="w-6 h-6" />
-                            <h5 className="text-2xl font-black uppercase tracking-tight">Transcription Analysis</h5>
-                        </div>
+            {showResult && (
+                <div
+                    className="space-y-8"
+                >
+                    <div className="flex items-center gap-4 text-emerald-400 px-2">
+                        <BookOpen className="w-6 h-6" />
+                        <h5 className="text-2xl font-black uppercase tracking-tight">Transcription Analysis</h5>
+                    </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {task.speakers.map(speaker => (
-                                <div key={speaker.id} className="bg-slate-900/60 p-8 rounded-[2.5rem] border border-white/5 space-y-6 group hover:border-emerald-500/30 transition-all">
-                                    <div className="flex items-center justify-between">
-                                        <span className="text-sm font-black text-emerald-400 uppercase tracking-widest bg-emerald-400/5 px-4 py-1.5 rounded-full border border-emerald-400/20">
-                                            {speaker.name} Resolved
-                                        </span>
-                                        <div className="text-xs font-black text-slate-600 uppercase tracking-widest">Part 2 Verified</div>
-                                    </div>
-                                    <p className="text-xl font-bold text-slate-300 leading-relaxed italic">
-                                        "{speaker.script}"
-                                    </p>
-                                    <div className="pt-4 border-t border-white/5">
-                                        <p className="text-sm font-black text-slate-500 uppercase tracking-widest mb-1">Target Answer</p>
-                                        <p className="text-2xl font-black text-emerald-400 uppercase tracking-tight">{speaker.answer}</p>
-                                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {task.speakers.map(speaker => (
+                            <div key={speaker.id} className="bg-slate-900/60 p-8 rounded-[2.5rem] border border-white/5 space-y-6 group hover:border-emerald-500/30 transition-all">
+                                <div className="flex items-center justify-between">
+                                    <span className="text-sm font-black text-emerald-400 uppercase tracking-widest bg-emerald-400/5 px-4 py-1.5 rounded-full border border-emerald-400/20">
+                                        {speaker.name} Resolved
+                                    </span>
+                                    <div className="text-xs font-black text-slate-600 uppercase tracking-widest">Part 2 Verified</div>
                                 </div>
-                            ))}
-                        </div>
-                    </motion.div>
-                )}
-            </AnimatePresence>
+                                <p className="text-xl font-bold text-slate-300 leading-relaxed italic">
+                                    "{speaker.script}"
+                                </p>
+                                <div className="pt-4 border-t border-white/5">
+                                    <p className="text-sm font-black text-slate-500 uppercase tracking-widest mb-1">Target Answer</p>
+                                    <p className="text-2xl font-black text-emerald-400 uppercase tracking-tight">{speaker.answer}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
         </div>
     );
 };

@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Check, X } from 'lucide-react';
 
 const McqQuestion = ({ question, options, selectedAnswer, onSelect, showResult, correctAnswer, index }) => {
@@ -9,12 +8,8 @@ const McqQuestion = ({ question, options, selectedAnswer, onSelect, showResult, 
     const explanation = typeof question === 'object' ? question.explanation : null;
 
     return (
-        <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: index * 0.05 }}
-            className="bg-slate-900/40 backdrop-blur-xl border border-white/10 p-10 rounded-[2.5rem] flex flex-col gap-10 hover:border-indigo-500/30 transition-all duration-500 group"
+        <div
+            className="bg-slate-900/40 border border-white/10 p-6 md:p-10 rounded-[2.5rem] flex flex-col gap-10 hover:border-indigo-500/30 transition-colors duration-300 group"
         >
             <div className="flex flex-col gap-6">
                 <div className="flex items-center gap-4">
@@ -67,33 +62,29 @@ const McqQuestion = ({ question, options, selectedAnswer, onSelect, showResult, 
             </div>
 
             {/* Translation & Explanation Feedback */}
-            <AnimatePresence>
-                {showResult && (translation || explanation) && (
-                    <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: 'auto' }}
-                        className="mt-4 pt-8 border-t border-slate-700/50 space-y-4"
-                    >
-                        {translation && (
-                            <div className="bg-slate-900/50 p-6 rounded-2xl border border-slate-700/30">
-                                <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-2">🇻🇳 Dịch nghĩa</p>
-                                <p className="text-2xl font-bold text-slate-100 italic leading-relaxed">
-                                    {translation}
-                                </p>
-                            </div>
-                        )}
-                        {explanation && (
-                            <div className="bg-emerald-500/10 p-6 rounded-2xl border border-emerald-500/20">
-                                <p className="text-emerald-400 font-bold text-sm uppercase tracking-widest mb-2">💡 Giải thích</p>
-                                <p className="text-xl font-bold text-emerald-100 leading-relaxed">
-                                    {explanation}
-                                </p>
-                            </div>
-                        )}
-                    </motion.div>
-                )}
-            </AnimatePresence>
-        </motion.div>
+            {showResult && (translation || explanation) && (
+                <div
+                    className="mt-4 pt-8 border-t border-slate-700/50 space-y-4"
+                >
+                    {translation && (
+                        <div className="bg-slate-900/50 p-6 rounded-2xl border border-slate-700/30">
+                            <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-2">🇻🇳 Dịch nghĩa</p>
+                            <p className="text-2xl font-bold text-slate-100 italic leading-relaxed">
+                                {translation}
+                            </p>
+                        </div>
+                    )}
+                    {explanation && (
+                        <div className="bg-emerald-500/10 p-6 rounded-2xl border border-emerald-500/20">
+                            <p className="text-emerald-400 font-bold text-sm uppercase tracking-widest mb-2">💡 Giải thích</p>
+                            <p className="text-xl font-bold text-emerald-100 leading-relaxed">
+                                {explanation}
+                            </p>
+                        </div>
+                    )}
+                </div>
+            )}
+        </div>
     );
 };
 

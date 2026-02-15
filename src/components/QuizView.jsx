@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, CheckCircle, RotateCcw, ChevronRight, LayoutGrid, Headphones, Target } from 'lucide-react';
 import AudioPlayer from './AudioPlayer';
 import McqQuestion from './McqQuestion';
@@ -52,35 +51,61 @@ const QuizView = ({ test, onBack }) => {
 
     return (
         <div className="flex flex-col gap-12 pb-32">
-            {/* Quiz Header */}
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 border-b border-white/5 pb-10">
-                <div className="flex flex-col gap-4">
-                    <button
-                        onClick={onBack}
-                        className="group flex items-center gap-3 text-slate-400 hover:text-white transition-all font-black uppercase text-xs tracking-widest"
-                    >
-                        <div className="w-10 h-10 rounded-xl bg-slate-900 border border-white/10 flex items-center justify-center group-hover:border-indigo-500/40 transition-colors">
-                            <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+            {/* Sticky Header + Tabs */}
+            <div className="sticky top-24 z-40 bg-[#0a0e1a]/95 backdrop-blur-md pb-6 -mx-6 px-6 pt-4">
+                {/* Quiz Header */}
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 border-b border-white/5 pb-6">
+                    <div className="flex flex-col gap-3">
+                        <button
+                            onClick={onBack}
+                            className="group flex items-center gap-3 text-slate-400 hover:text-white transition-all font-black uppercase text-xs tracking-widest"
+                        >
+                            <div className="w-10 h-10 rounded-xl bg-slate-900 border border-white/10 flex items-center justify-center group-hover:border-indigo-500/40 transition-colors">
+                                <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+                            </div>
+                            Exit Module
+                        </button>
+                        <div className="space-y-1">
+                            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase leading-none">
+                                {test.title}
+                            </h2>
+                            <div className="flex items-center gap-4 text-slate-500">
+                                <span className="text-sm font-black uppercase tracking-wider">Practice Session</span>
+                                <div className="w-1.5 h-1.5 rounded-full bg-indigo-500" />
+                                <span className="text-sm font-black uppercase tracking-wider">High Fidelity</span>
+                            </div>
                         </div>
-                        Exit Module
-                    </button>
-                    <div className="space-y-2">
-                        <h2 className="text-5xl font-black text-white tracking-tight uppercase leading-none">
-                            {test.title}
-                        </h2>
-                        <div className="flex items-center gap-4 text-slate-500">
-                            <span className="text-sm font-black uppercase tracking-wider">Practice Session</span>
-                            <div className="w-1.5 h-1.5 rounded-full bg-indigo-500" />
-                            <span className="text-sm font-black uppercase tracking-wider">High Fidelity</span>
+                    </div>
+                    <div className="flex items-center gap-4 bg-slate-900/60 border border-white/10 p-3 rounded-2xl self-start md:self-center">
+                        <Target className="w-5 h-5 text-indigo-400" />
+                        <div className="flex flex-col">
+                            <span className="text-[10px] font-black uppercase tracking-widest text-slate-500">Current Progress</span>
+                            <span className="text-lg font-black text-white">{Object.keys(answers).length + Object.keys(matchingAnswers).length + Object.keys(opinionAnswers).length} / {total} Done</span>
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center gap-4 bg-slate-900/40 backdrop-blur-xl border border-white/10 p-4 rounded-3xl self-start md:self-center">
-                    <Target className="w-6 h-6 text-indigo-400" />
-                    <div className="flex flex-col">
-                        <span className="text-[10px] font-black uppercase tracking-widest text-slate-500">Current Progress</span>
-                        <span className="text-xl font-black text-white">{Object.keys(answers).length + Object.keys(matchingAnswers).length + Object.keys(opinionAnswers).length} / {total} Done</span>
-                    </div>
+
+                {/* Navigation Tabs */}
+                <div className="flex flex-wrap gap-3 bg-slate-900/60 p-2 rounded-[2.2rem] border border-white/5 overflow-hidden mt-4">
+                    {[
+                        { id: 'mcq', label: 'Part 1: C1 - C13', icon: LayoutGrid },
+                        { id: 'task14', label: 'Part 2: Task 14', icon: Headphones },
+                        { id: 'task15', label: 'Part 3: Task 15', icon: Target },
+                        { id: 'extra', label: 'Part 4: C16 - C17', icon: LayoutGrid }
+                    ].map(tab => (
+                        <button
+                            key={tab.id}
+                            onClick={() => setActiveTab(tab.id)}
+                            className={`flex-1 flex items-center justify-center gap-3 px-6 py-4 rounded-[1.8rem] text-sm font-black uppercase tracking-widest transition-all
+                            ${activeTab === tab.id
+                                    ? 'bg-indigo-600 text-white shadow-2xl shadow-indigo-600/40'
+                                    : 'text-slate-500 hover:text-white hover:bg-white/5 whitespace-nowrap'}
+                        `}
+                        >
+                            <tab.icon className="w-5 h-5" />
+                            {tab.label}
+                        </button>
+                    ))}
                 </div>
             </div>
 
@@ -88,96 +113,67 @@ const QuizView = ({ test, onBack }) => {
                 <div className="xl:col-span-8 space-y-12">
                     <AudioPlayer trackTitle={test.title} />
 
-                    {/* Navigation Tabs */}
-                    <div className="flex flex-wrap gap-4 bg-slate-900/40 backdrop-blur-xl p-2 rounded-[2.2rem] border border-white/5 overflow-hidden">
-                        {[
-                            { id: 'mcq', label: 'Part 1: C1 - C13', icon: LayoutGrid },
-                            { id: 'task14', label: 'Part 2: Task 14', icon: Headphones },
-                            { id: 'task15', label: 'Part 3: Task 15', icon: Target },
-                            { id: 'extra', label: 'Part 4: C16 - C17', icon: LayoutGrid }
-                        ].map(tab => (
-                            <button
-                                key={tab.id}
-                                onClick={() => setActiveTab(tab.id)}
-                                className={`flex-1 flex items-center justify-center gap-3 px-8 py-5 rounded-[1.8rem] text-sm font-black uppercase tracking-widest transition-all
-                            ${activeTab === tab.id
-                                        ? 'bg-indigo-600 text-white shadow-2xl shadow-indigo-600/40'
-                                        : 'text-slate-500 hover:text-white hover:bg-white/5 whitespace-nowrap'}
-                        `}
-                            >
-                                <tab.icon className="w-5 h-5" />
-                                {tab.label}
-                            </button>
-                        ))}
+                    <div
+                        key={activeTab}
+                        className="min-h-[500px]"
+                    >
+                        {activeTab === 'mcq' && (
+                            <div className="flex flex-col gap-8">
+                                {test.questions.map((q, idx) => (
+                                    <McqQuestion
+                                        key={q.id}
+                                        index={idx}
+                                        question={q}
+                                        options={q.options}
+                                        selectedAnswer={answers[q.id]}
+                                        onSelect={(opt) => handleMcqSelect(q.id, opt)}
+                                        showResult={showResult}
+                                        correctAnswer={q.answer}
+                                    />
+                                ))}
+                            </div>
+                        )}
+
+                        {activeTab === 'task14' && (
+                            <MatchingQuestion
+                                task={test.matchingTask}
+                                answers={matchingAnswers}
+                                onSelect={handleMatchingSelect}
+                                showResult={showResult}
+                            />
+                        )}
+
+                        {activeTab === 'task15' && (
+                            <OpinionQuestion
+                                task={test.opinionTask}
+                                answers={opinionAnswers}
+                                onSelect={handleOpinionSelect}
+                                showResult={showResult}
+                            />
+                        )}
+
+                        {activeTab === 'extra' && (
+                            <div className="flex flex-col gap-8">
+                                {test.extraQuestions.map((q, idx) => (
+                                    <McqQuestion
+                                        key={q.id}
+                                        index={idx}
+                                        question={q}
+                                        options={q.options}
+                                        selectedAnswer={answers[q.id]}
+                                        onSelect={(opt) => handleMcqSelect(q.id, opt)}
+                                        showResult={showResult}
+                                        correctAnswer={q.answer}
+                                    />
+                                ))}
+                            </div>
+                        )}
                     </div>
-
-                    <AnimatePresence mode="wait">
-                        <motion.div
-                            key={activeTab}
-                            initial={{ opacity: 0, x: 20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            exit={{ opacity: 0, x: -20 }}
-                            transition={{ duration: 0.4, ease: "easeOut" }}
-                            className="min-h-[500px]"
-                        >
-                            {activeTab === 'mcq' && (
-                                <div className="flex flex-col gap-8">
-                                    {test.questions.map((q, idx) => (
-                                        <McqQuestion
-                                            key={q.id}
-                                            index={idx}
-                                            question={q}
-                                            options={q.options}
-                                            selectedAnswer={answers[q.id]}
-                                            onSelect={(opt) => handleMcqSelect(q.id, opt)}
-                                            showResult={showResult}
-                                            correctAnswer={q.answer}
-                                        />
-                                    ))}
-                                </div>
-                            )}
-
-                            {activeTab === 'task14' && (
-                                <MatchingQuestion
-                                    task={test.matchingTask}
-                                    answers={matchingAnswers}
-                                    onSelect={handleMatchingSelect}
-                                    showResult={showResult}
-                                />
-                            )}
-
-                            {activeTab === 'task15' && (
-                                <OpinionQuestion
-                                    task={test.opinionTask}
-                                    answers={opinionAnswers}
-                                    onSelect={handleOpinionSelect}
-                                    showResult={showResult}
-                                />
-                            )}
-
-                            {activeTab === 'extra' && (
-                                <div className="flex flex-col gap-8">
-                                    {test.extraQuestions.map((q, idx) => (
-                                        <McqQuestion
-                                            key={q.id}
-                                            index={idx}
-                                            question={q}
-                                            options={q.options}
-                                            selectedAnswer={answers[q.id]}
-                                            onSelect={(opt) => handleMcqSelect(q.id, opt)}
-                                            showResult={showResult}
-                                            correctAnswer={q.answer}
-                                        />
-                                    ))}
-                                </div>
-                            )}
-                        </motion.div>
-                    </AnimatePresence>
                 </div>
 
                 {/* Right Sidebar Info / Results */}
                 <aside className="xl:col-span-4 space-y-8 sticky top-28">
-                    <div className="bg-slate-900/40 backdrop-blur-3xl border border-white/10 rounded-[2.5rem] p-10 space-y-8">
+                    <div className="bg-slate-900/60 border border-white/10 rounded-[2.5rem] p-6 md:p-10 space-y-8">
                         <div className="space-y-2">
                             <h4 className="text-2xl font-black text-white uppercase tracking-tight">System Status</h4>
                             <p className="text-slate-500 text-sm font-semibold uppercase">Real-time performance tracker</p>
@@ -189,9 +185,7 @@ const QuizView = ({ test, onBack }) => {
                                 <span className="text-2xl font-black text-indigo-400">{Object.keys(answers).length + Object.keys(matchingAnswers).length + Object.keys(opinionAnswers).length}</span>
                             </div>
                             {showResult && (
-                                <motion.div
-                                    initial={{ scale: 0.9, opacity: 0 }}
-                                    animate={{ scale: 1, opacity: 1 }}
+                                <div
                                     className="p-8 rounded-[2rem] bg-indigo-600 border border-indigo-500 shadow-2xl shadow-indigo-600/40 text-center space-y-4"
                                 >
                                     <span className="text-sm font-black text-indigo-100 uppercase tracking-[0.2em]">Final Percentage</span>
@@ -201,7 +195,7 @@ const QuizView = ({ test, onBack }) => {
                                     <div className="text-xl font-bold text-indigo-100">
                                         {score} of {total} Points
                                     </div>
-                                </motion.div>
+                                </div>
                             )}
                         </div>
 

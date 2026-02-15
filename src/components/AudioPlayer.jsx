@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { Play, Pause, RotateCcw, Volume2, VolumeX, Activity } from 'lucide-react';
 
 const AudioPlayer = ({ src, trackTitle }) => {
@@ -48,10 +47,8 @@ const AudioPlayer = ({ src, trackTitle }) => {
     };
 
     return (
-        <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            className="bg-slate-900/60 backdrop-blur-3xl border border-white/10 p-10 rounded-[3rem] shadow-2xl relative overflow-hidden group"
+        <div
+            className="bg-slate-900/60 border border-white/10 p-6 md:p-10 rounded-[3rem] shadow-2xl relative overflow-hidden group"
         >
             <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
                 <Activity className="w-24 h-24 text-indigo-500" />
@@ -125,7 +122,7 @@ const AudioPlayer = ({ src, trackTitle }) => {
                     </div>
                 </div>
             </div>
-        </motion.div>
+        </div>
     );
 };
 

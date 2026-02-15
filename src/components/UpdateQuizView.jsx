@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, CheckCircle, RotateCcw, Target } from 'lucide-react';
 import McqQuestion from './McqQuestion';
 
@@ -39,7 +38,7 @@ const UpdateQuizView = ({ module, onBack }) => {
                         )}
                     </div>
                 </div>
-                <div className="flex items-center gap-4 bg-slate-900/40 backdrop-blur-xl border border-white/10 p-4 rounded-3xl self-start md:self-center">
+                <div className="flex items-center gap-4 bg-slate-900/60 border border-white/10 p-4 rounded-3xl self-start md:self-center">
                     <Target className="w-6 h-6 text-indigo-400" />
                     <div className="flex flex-col">
                         <span className="text-[10px] font-black uppercase tracking-widest text-slate-500">Tiến độ</span>
@@ -67,7 +66,7 @@ const UpdateQuizView = ({ module, onBack }) => {
 
                 {/* Sidebar */}
                 <aside className="xl:col-span-4 space-y-8 sticky top-28">
-                    <div className="bg-slate-900/40 backdrop-blur-3xl border border-white/10 rounded-[2.5rem] p-10 space-y-8">
+                    <div className="bg-slate-900/60 border border-white/10 rounded-[2.5rem] p-6 md:p-10 space-y-8">
                         <div className="space-y-2">
                             <h4 className="text-2xl font-black text-white uppercase tracking-tight">Kết quả</h4>
                             <p className="text-slate-500 text-sm font-semibold uppercase">Trắc nghiệm bổ sung</p>
@@ -79,9 +78,7 @@ const UpdateQuizView = ({ module, onBack }) => {
                                 <span className="text-2xl font-black text-indigo-400">{Object.keys(answers).length}</span>
                             </div>
                             {showResult && (
-                                <motion.div
-                                    initial={{ scale: 0.9, opacity: 0 }}
-                                    animate={{ scale: 1, opacity: 1 }}
+                                <div
                                     className="p-8 rounded-[2rem] bg-indigo-600 border border-indigo-500 shadow-2xl shadow-indigo-600/40 text-center space-y-4"
                                 >
                                     <span className="text-sm font-black text-indigo-100 uppercase tracking-[0.2em]">Điểm số</span>
@@ -91,7 +88,7 @@ const UpdateQuizView = ({ module, onBack }) => {
                                     <div className="text-xl font-bold text-indigo-100">
                                         {score} / {total} Câu đúng
                                     </div>
-                                </motion.div>
+                                </div>
                             )}
                         </div>
 

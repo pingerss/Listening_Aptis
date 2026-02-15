@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Info, Users, BookOpen, MessageSquare } from 'lucide-react';
 
 const OpinionQuestion = ({ task, answers, onSelect, showResult }) => {
@@ -7,7 +6,7 @@ const OpinionQuestion = ({ task, answers, onSelect, showResult }) => {
 
     return (
         <div className="flex flex-col gap-10">
-            <div className="bg-slate-900/40 backdrop-blur-3xl border border-white/10 p-10 rounded-[3rem] space-y-12">
+            <div className="bg-slate-900/40 border border-white/10 p-6 md:p-10 rounded-[3rem] space-y-12">
                 <div className="space-y-4">
                     <div className="flex items-center gap-3 text-purple-400 font-black uppercase text-xs tracking-[0.2em]">
                         <MessageSquare className="w-4 h-4" />
@@ -69,26 +68,22 @@ const OpinionQuestion = ({ task, answers, onSelect, showResult }) => {
                 </div>
             </div>
 
-            <AnimatePresence>
-                {showResult && (
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="bg-slate-900/60 p-12 rounded-[3rem] border border-white/5 space-y-8"
-                    >
-                        <div className="flex items-center gap-4 text-purple-400">
-                            <BookOpen className="w-7 h-7" />
-                            <h5 className="text-3xl font-black uppercase tracking-tight">Full Discussion Transcript</h5>
-                        </div>
-                        <div className="relative">
-                            <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-500 to-indigo-500 rounded-full opacity-20" />
-                            <p className="pl-8 text-xl font-bold text-slate-400 leading-relaxed italic whitespace-pre-line">
-                                {task.script}
-                            </p>
-                        </div>
-                    </motion.div>
-                )}
-            </AnimatePresence>
+            {showResult && (
+                <div
+                    className="bg-slate-900/60 p-8 md:p-12 rounded-[3rem] border border-white/5 space-y-8"
+                >
+                    <div className="flex items-center gap-4 text-purple-400">
+                        <BookOpen className="w-7 h-7" />
+                        <h5 className="text-3xl font-black uppercase tracking-tight">Full Discussion Transcript</h5>
+                    </div>
+                    <div className="relative">
+                        <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-500 to-indigo-500 rounded-full opacity-20" />
+                        <p className="pl-8 text-xl font-bold text-slate-400 leading-relaxed italic whitespace-pre-line">
+                            {task.script}
+                        </p>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };

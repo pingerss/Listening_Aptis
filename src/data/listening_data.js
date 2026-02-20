@@ -2168,274 +2168,222 @@ export const listeningData = [
             }
         ]
     },
-    {
+   {
         "id": 9,
         "title": "LISTENING 9",
         "questions": [
             {
                 "id": "C1",
-                "question": "What time does the reading class start?",
-                "options": [
-                    "Tuesday at 8",
-                    "Monday at 8",
-                    "Wednesday at 8"
-                ],
-                "answer": "Tuesday at 8",
-                "translation": "Lớp đọc bắt đầu lúc mấy giờ?",
-                "explanation": "=> Tuesday at 8"
+                "question": "What does he do?",
+                "options": ["Reporter", "Chef", "Writer"],
+                "answer": "Writer",
+                "translation": "Anh ấy làm gì?",
+                "explanation": "=> C. Writer (Nhà văn)."
             },
             {
                 "id": "C2",
-                "question": "Where is the nearest bus stop?",
-                "options": [
-                    "Opposite the station",
-                    "Near the park",
-                    "Next to the hotel"
-                ],
-                "answer": "Opposite the station",
-                "translation": "Trạm xe buýt gần nhất ở đâu?",
-                "explanation": "=> Opposite the station"
+                "question": "What does he drink?",
+                "options": ["Tea", "Juice", "Water"],
+                "answer": "Water",
+                "translation": "Anh ấy uống gì?",
+                "explanation": "=> C. Water (Nước)."
             },
             {
                 "id": "C3",
-                "question": "Where are the plates?",
-                "options": [
-                    "In the kitchen drawer",
-                    "In the top cupboard",
-                    "Under the shelf"
-                ],
-                "answer": "In the top cupboard",
-                "translation": "Những cái đĩa ở đâu?",
-                "explanation": "=> In the top cupboard"
+                "question": "What will she do?",
+                "options": ["Go to the coffee shop", "Go for a drive", "Go on a picnic"],
+                "answer": "Go for a drive",
+                "translation": "Cô ấy sẽ làm gì?",
+                "explanation": "=> B. Go for a drive (đi chơi bằng ô tô)"
             },
             {
                 "id": "C4",
-                "question": "A good interviewer should?",
-                "options": [
-                    "Prepare questions beforehand",
-                    "Record the interview",
-                    "Arrive early"
-                ],
-                "answer": "Prepare questions beforehand",
-                "translation": "Một người phỏng vấn giỏi nên?",
-                "explanation": "=> Prepare questions beforehand"
+                "question": "What does she have in common with her mother?",
+                "options": ["They look like each other", "They have similar interests", "They have similar characteristics"],
+                "answer": "They have similar interests",
+                "translation": "Điểm chung giữa cô ấy và mẹ cô ấy là gì?",
+                "explanation": "=> B. They have similar interests (Họ có những sở thích giống nhau)."
             },
             {
                 "id": "C5",
-                "question": "What is the price of the tickets?",
-                "options": [
-                    "35 pounds each",
-                    "45 pounds each",
-                    "55 pounds each"
-                ],
-                "answer": "45 pounds each",
-                "translation": "Giá vé là bao nhiêu?",
-                "explanation": "=> 45 pounds each"
+                "question": "What does he buy at the shop?",
+                "options": ["a suit for the office", "a dress for his wife", "new clothes"],
+                "answer": "a suit for the office",
+                "translation": "Anh ấy mua gì ở cửa hàng?",
+                "explanation": "=> A. a suit for the office (Một bộ đồ vest để mặc ở văn phòng.)."
             },
             {
                 "id": "C6",
-                "question": "A girl is calling her friend. What happened?",
-                "options": [
-                    "She missed the bus",
-                    "She lost her wallet",
-                    "She forgot her bag"
-                ],
-                "answer": "She missed the bus",
-                "translation": "Chuyện gì đã xảy ra?",
-                "explanation": "=> She missed the bus"
+                "question": "What do birds do in winter?",
+                "options": ["They look for food reserves", "They stay in groups for protection", "They migrate to other regions"],
+                "answer": "They stay in groups for protection",
+                "translation": "Những con chim làm gì vào mùa đông?",
+                "explanation": "=> B. They stay in groups for protection (Chúng sống theo bầy để tự bảo vệ)."
             },
             {
                 "id": "C7",
-                "question": "Where will they have lunch?",
-                "options": [
-                    "At the restaurant",
-                    "In the office",
-                    "At the park"
-                ],
-                "answer": "At the restaurant",
-                "translation": "Họ sẽ ăn trưa ở đâu?",
-                "explanation": "=> At the restaurant"
+                "question": "How much are the eggs? (1)",
+                "options": ["1.25 pound", "1.50 pound", "2 pounds"],
+                "answer": "1.50 pound",
+                "translation": "Trứng giá bao nhiêu? (1)",
+                "explanation": "=> B. 1.50 pound (1,5 bảng Anh)."
             },
             {
                 "id": "C8",
-                "question": "What did she like about the museum?",
-                "options": [
-                    "The paintings",
-                    "The sculptures",
-                    "The building"
-                ],
-                "answer": "The paintings",
-                "translation": "Cô ấy thích gì ở bảo tàng?",
-                "explanation": "=> The paintings"
+                "question": "A woman is calling her husband. What time is lunch ready?",
+                "options": ["1pm", "2pm", "3pm"],
+                "answer": "2pm",
+                "translation": "Một người phụ nữ đang gọi cho chồng mình. Bữa trưa sẽ sẵn sàng lúc mấy giờ?",
+                "explanation": "=> B. 2pm (2 giờ chiều)."
             },
             {
                 "id": "C9",
-                "question": "What does he advise her to do?",
-                "options": [
-                    "Rest more",
-                    "See a doctor",
-                    "Take medicine"
-                ],
-                "answer": "See a doctor",
-                "translation": "Anh ấy khuyên cô ấy làm gì?",
-                "explanation": "=> See a doctor"
+                "question": "What time is the meeting?",
+                "options": ["2pm", "10am", "11am"],
+                "answer": "2pm",
+                "translation": "Cuộc họp lúc mấy giờ?",
+                "explanation": "=> B. 2pm (2 giờ chiều)."
             },
             {
                 "id": "C10",
-                "question": "How will she get to the airport?",
-                "options": [
-                    "By bus",
-                    "By taxi",
-                    "By train"
-                ],
-                "answer": "By taxi",
-                "translation": "Cô ấy sẽ đến sân bay bằng cách nào?",
-                "explanation": "=> By taxi"
+                "question": "Where is the club near?",
+                "options": ["A park", "A library", "A coffee shop"],
+                "answer": "A park",
+                "translation": "Câu lạc bộ ở gần đâu?",
+                "explanation": "=> A. A park (Công viên)."
             },
             {
                 "id": "C11",
-                "question": "What time does the library close?",
-                "options": [
-                    "5pm",
-                    "6pm",
-                    "7pm"
-                ],
-                "answer": "6pm",
-                "translation": "Thư viện đóng cửa lúc mấy giờ?",
-                "explanation": "=> 6pm"
+                "question": "What to feed the cat?",
+                "options": ["Milk", "Fish", "Cat food"],
+                "answer": "Fish",
+                "translation": "Cho mèo ăn gì?",
+                "explanation": "=> B. Fish (Cá)."
             },
             {
                 "id": "C12",
-                "question": "What sport does she play on Sundays?",
-                "options": [
-                    "Tennis",
-                    "Badminton",
-                    "Football"
-                ],
-                "answer": "Tennis",
-                "translation": "Cô ấy chơi môn thể thao gì vào chủ nhật?",
-                "explanation": "=> Tennis"
+                "question": "What does he need to buy for his sister?",
+                "options": ["Chocolates", "Eggs", "Milk"],
+                "answer": "Chocolates",
+                "translation": "Anh ấy cần mua gì cho chị gái của mình?",
+                "explanation": "=> A. Chocolates (Sô cô la)"
             },
             {
                 "id": "C13",
-                "question": "How many people are coming to the party?",
-                "options": [
-                    "About 20",
-                    "About 30",
-                    "About 40"
-                ],
-                "answer": "About 30",
-                "translation": "Có bao nhiêu người đến bữa tiệc?",
-                "explanation": "=> About 30"
+                "question": "Why does she like the manager?",
+                "options": ["He was good at his job", "He paid her a lot", "He taught her a lot"],
+                "answer": "He taught her a lot",
+                "translation": "Tại sao cô ấy thích người quản lý?",
+                "explanation": "=> C. He taught her a lot (Anh ấy đã dạy cô ấy rất nhiều)."
             }
         ],
         "matchingTask": {
             "id": "C14",
-            "topic": "Keeping fit",
+            "topic": "Art",
             "speakers": [
                 {
                     "id": "A",
                     "name": "Person A",
-                    "answer": "Taking stairs",
-                    "script": "I work in a building with 5 floors. Every day, instead of taking the elevator, I walk up and down the stairs. It may not seem like much, but doing it consistently every day really helps me stay in shape."
+                    "answer": "social activity",
+                    "script": "I personally don't like and don't have a talent for fine arts, especially painting. But I see it as a great way to engage in social charity activities. I'm passionate about teaching children how to draw because I love kids. I'm also part of a volunteer organization that specializes in teaching art to poor children, which makes me very happy."
                 },
                 {
                     "id": "B",
                     "name": "Person B",
-                    "answer": "Eating healthy food",
-                    "script": "I don't have time to exercise regularly, so I focus on my diet. I always choose fresh vegetables, fruits, and avoid processed food. A balanced diet is really important for staying healthy."
+                    "answer": "with children",
+                    "script": "I think drawing with my children is a great way to understand them better. No matter how busy my work is, I always make time to sit and draw with my kids. This helps us bond more and gives me the chance to talk with them more."
                 },
                 {
                     "id": "C",
                     "name": "Person C",
-                    "answer": "Walk to work",
-                    "script": "My office is about 2 km from my house. Instead of driving, I walk to work every day. It takes about 25 minutes, but it's great exercise and helps me start the day feeling energized."
+                    "answer": "as part of their job",
+                    "script": "I've loved literature, art, and drawing since I was a child. Now, I'm a writer and a comic book creator. In my stories, I occasionally include some illustrations to make the book more vivid and lively."
                 },
                 {
                     "id": "D",
                     "name": "Person D",
-                    "answer": "Going to the gym",
-                    "script": "I signed up for a gym membership last month and I go there three times a week. I do a mix of cardio and weight training. Having a set schedule really keeps me motivated."
+                    "answer": "alone",
+                    "script": "I'm currently taking a drawing course and I really want to be serious about it. When practicing drawing, I prefer not to draw with friends, even though they often invite me to join them. I want to focus entirely on my work."
                 }
             ],
             "options": [
-                "Taking stairs",
-                "Eating healthy food",
-                "Walk to work",
-                "Going to the gym"
+                "with children",
+                "as part of their job",
+                "alone",
+                "social activity"
             ]
         },
         "opinionTask": {
             "id": "C15",
-            "topic": "Cycling",
+            "topic": "Information and technology",
             "statements": [
                 {
-                    "text": "Cycling is good for the environment",
-                    "answer": "Both"
-                },
-                {
-                    "text": "Cycling can be dangerous on main roads",
-                    "answer": "Woman"
-                },
-                {
-                    "text": "Cities should build more cycling lanes",
+                    "text": "The future generation will fail to cope with new information",
                     "answer": "Man"
                 },
                 {
-                    "text": "Cycling is a good way to stay healthy",
+                    "text": "The information revolution will be good for the economy",
+                    "answer": "Woman"
+                },
+                {
+                    "text": "No computer is superior to the human brain",
+                    "answer": "Woman"
+                },
+                {
+                    "text": "More should be done to protect individual privacy",
                     "answer": "Both"
                 }
             ],
-            "script": "M: You know, I think cycling is one of the best things you can do for the environment. No emissions at all. W: I completely agree. It's much better than driving a car, especially for short trips. But I do worry about safety. Cycling on busy main roads can be really dangerous. M: That's true. That's why I think we need more dedicated cycling lanes. If cities invested in better cycling infrastructure, more people would feel safe enough to cycle. W: I'd definitely cycle more if the roads were safer. And besides the environmental benefits, it's also a great way to stay fit. M: Exactly! I lost 5 kg just from cycling to work every day. W: That's amazing! Cycling really does help with fitness."
+            "script": "M: Hi, what have you been studying lately?\nW: Oh, I'm still studying technology and information systems—it's a really hot topic these days.\nM: That's a fascinating field. I still can't imagine the future of humanity alongside technology. I think within the next hundred years, humans won't be able to keep up with the pace of information technology development.\nW: I believe that the younger generation and future generations will become increasingly smarter, and they'll discover even more amazing things about information technology to benefit society.\nM: But if technology advances too quickly and becomes too sophisticated, won't that cause a lot of people to lose their jobs? Many industries could be replaced by machines and robots. In the future, machines might even be smarter than humans.\nW: I think machines are just there to support humans in their work; they can't replace us or be smarter than us. If machines and robots are involved in the work process, they will make our jobs less strenuous and improve efficiency. This, in turn, will drive continuous economic and social development alongside technological advancements.\nM: What about the issue of personal data breaches? We should have more policies to protect personal information and prevent machines from leaking important personal data.\nW: I agree with you. A major issue with information technology is the potential for data breaches. If we can improve this, it would be fantastic."
         },
         "extraQuestions": [
             {
                 "id": "C16.1",
-                "question": "What does the speaker say about sleep quality?",
+                "question": "What is the way to have a good sleep according to the speaker?",
                 "options": [
-                    "People's sleeping quality has not changed significantly",
-                    "Sleep quality has improved",
-                    "Sleep quality is worse"
+                    "Blocking out noise and light is key",
+                    "Drinking warm milk",
+                    "Reading a book"
                 ],
-                "answer": "People's sleeping quality has not changed significantly",
-                "translation": "Người nói nói gì về chất lượng giấc ngủ?",
-                "explanation": "=> People's sleeping quality has not changed significantly"
+                "answer": "Blocking out noise and light is key",
+                "translation": "Theo người nói, cách để có một giấc ngủ ngon là gì?",
+                "explanation": "=> Blocking out noise and light is key (Việc chặn tiếng ồn và ánh sáng là then chốt)"
             },
             {
                 "id": "C16.2",
-                "question": "What does the speaker say about the media's role in sleep discussion?",
+                "question": "What is the speaker's view on insomnia in general?",
                 "options": [
-                    "The media exaggerates the issue",
-                    "The media ignores the issue",
-                    "The media is helpful"
+                    "People can't always recognize the symptoms of tiredness",
+                    "It is easily cured",
+                    "It only affects old people"
                 ],
-                "answer": "The media exaggerates the issue",
-                "translation": "Người nói nói gì về vai trò của truyền thông?",
-                "explanation": "=> The media exaggerates the issue"
+                "answer": "People can't always recognize the symptoms of tiredness",
+                "translation": "Quan điểm của người nói về chứng mất ngủ nói chung là gì?",
+                "explanation": "=> People can't always recognize the symptoms of tiredness (Mọi người không phải lúc nào cũng nhận ra các dấu hiệu mệt mỏi)."
             },
             {
                 "id": "C17.1",
-                "question": "What happened to the TV series?",
+                "question": "What do people think about this promotion campaign?",
                 "options": [
-                    "It caught audience attention from the start",
-                    "It was cancelled",
-                    "It lost viewers"
+                    "It is making exaggerated claims",
+                    "It is very creative",
+                    "It is successful"
                 ],
-                "answer": "It caught audience attention from the start",
-                "translation": "Chuyện gì đã xảy ra với bộ phim truyền hình?",
-                "explanation": "=> It caught audience attention from the start"
+                "answer": "It is making exaggerated claims",
+                "translation": "Mọi người nghĩ gì về chiến dịch khuyến mãi này?",
+                "explanation": "=> It is making exaggerated claims (Nó đang đưa ra những tuyên bố phóng đại)."
             },
             {
                 "id": "C17.2",
-                "question": "What is the potential of the series?",
+                "question": "What does the speaker think about this campaign?",
                 "options": [
-                    "It can reach new customers",
-                    "It will end soon",
-                    "It needs more investment"
+                    "It costs too much to make to be profitable",
+                    "It will attract many customers",
+                    "It is the best campaign ever"
                 ],
-                "answer": "It can reach new customers",
-                "translation": "Tiềm năng của bộ phim là gì?",
-                "explanation": "=> It can reach new customers"
+                "answer": "It costs too much to make to be profitable",
+                "translation": "Người nói nghĩ gì về chiến dịch này?",
+                "explanation": "=> It costs too much to make to be profitable (Chi phí để làm ra quá cao nên không có lãi.)"
             }
         ]
     },
@@ -2445,268 +2393,216 @@ export const listeningData = [
         "questions": [
             {
                 "id": "C1",
-                "question": "What is the man's new hobby?",
-                "options": [
-                    "Cooking",
-                    "Photography",
-                    "Painting"
-                ],
-                "answer": "Photography",
-                "translation": "Sở thích mới của anh ấy là gì?",
-                "explanation": "=> Photography"
+                "question": "What does she usually do in the evening?",
+                "options": ["listen to music", "go for a walk", "go to the coffee shop"],
+                "answer": "go for a walk",
+                "translation": "Buổi tối cô ấy thường làm gì?",
+                "explanation": "=> B. go for a walk (Đi dạo)."
             },
             {
                 "id": "C2",
-                "question": "When will the concert start?",
-                "options": [
-                    "7:30pm",
-                    "8:00pm",
-                    "8:30pm"
-                ],
-                "answer": "8:00pm",
-                "translation": "Buổi hòa nhạc bắt đầu lúc mấy giờ?",
-                "explanation": "=> 8:00pm"
+                "question": "What day do they meet?",
+                "options": ["Tuesday", "Thursday", "Friday"],
+                "answer": "Tuesday",
+                "translation": "Họ gặp nhau ngày nào?",
+                "explanation": "=> A. Tuesday (Thứ Ba)."
             },
             {
                 "id": "C3",
-                "question": "How many rooms does the apartment have?",
-                "options": [
-                    "Two",
-                    "Three",
-                    "Four"
-                ],
-                "answer": "Three",
-                "translation": "Căn hộ có bao nhiêu phòng?",
-                "explanation": "=> Three"
+                "question": "A woman is talking about her job. How is being a writer different from other jobs?",
+                "options": ["She works irregular time", "She does not have a high salary", "She has no fixed workplace"],
+                "answer": "She works irregular time",
+                "translation": "Một người phụ nữ đang nói về công việc của mình. Làm nhà văn khác gì so với các công việc khác?",
+                "explanation": "=> A. She works irregular time (Cô ấy làm việc vào giờ giấc không cố định)."
             },
             {
                 "id": "C4",
-                "question": "Where is the new shopping centre?",
-                "options": [
-                    "Next to the hospital",
-                    "Near the school",
-                    "Behind the library"
-                ],
-                "answer": "Next to the hospital",
-                "translation": "Trung tâm mua sắm mới ở đâu?",
-                "explanation": "=> Next to the hospital"
+                "question": "Where does she buy food?",
+                "options": ["at a local market", "at a convenient store", "at a new shopping centre"],
+                "answer": "at a new shopping centre",
+                "translation": "Cô ấy mua thức ăn ở đâu?",
+                "explanation": "=> C. at a new shopping centre (Ở một trung tâm mua sắm mới)."
             },
             {
                 "id": "C5",
-                "question": "What time does the shop close on Saturdays?",
-                "options": [
-                    "4pm",
-                    "5pm",
-                    "6pm"
-                ],
-                "answer": "5pm",
-                "translation": "Cửa hàng đóng cửa lúc mấy giờ vào thứ bảy?",
-                "explanation": "=> 5pm"
+                "question": "What time is the football match?",
+                "options": ["1pm", "7pm", "4pm"],
+                "answer": "1pm",
+                "translation": "Trận bóng đá lúc mấy giờ?",
+                "explanation": "=> A. 1pm (1 giờ chiều)."
             },
             {
                 "id": "C6",
-                "question": "What did she buy for her mother?",
-                "options": [
-                    "A scarf",
-                    "A bag",
-                    "A watch"
-                ],
-                "answer": "A scarf",
-                "translation": "Cô ấy đã mua gì cho mẹ?",
-                "explanation": "=> A scarf"
+                "question": "What does she drink for lunch?",
+                "options": ["Tea", "Water", "Iced tea"],
+                "answer": "Tea",
+                "translation": "Cô ấy uống gì cho bữa trưa?",
+                "explanation": "=> A. Tea (Trà)."
             },
             {
                 "id": "C7",
-                "question": "How long has he been working at this company?",
-                "options": [
-                    "2 years",
-                    "5 years",
-                    "10 years"
-                ],
-                "answer": "5 years",
-                "translation": "Anh ấy đã làm việc ở công ty này bao lâu?",
-                "explanation": "=> 5 years"
+                "question": "What colour is the teacher's house?",
+                "options": ["Blue", "Red", "White"],
+                "answer": "White",
+                "translation": "Ngôi nhà của giáo viên có màu gì?",
+                "explanation": "=> C. White (Trắng)."
             },
             {
                 "id": "C8",
-                "question": "What language is she learning?",
-                "options": [
-                    "Spanish",
-                    "French",
-                    "German"
-                ],
-                "answer": "French",
-                "translation": "Cô ấy đang học ngôn ngữ gì?",
-                "explanation": "=> French"
+                "question": "How much are the eggs? (2)",
+                "options": ["1.25 pound", "2 pounds", "2.50 pounds"],
+                "answer": "2.50 pounds",
+                "translation": "Trứng giá bao nhiêu? (2)",
+                "explanation": "=> C. 2.50 pounds (2.5 bảng Anh)."
             },
             {
                 "id": "C9",
-                "question": "Why did he miss the meeting?",
-                "options": [
-                    "Traffic jam",
-                    "Overslept",
-                    "Forgot about it"
-                ],
-                "answer": "Traffic jam",
-                "translation": "Tại sao anh ấy bỏ lỡ cuộc họp?",
-                "explanation": "=> Traffic jam"
+                "question": "What does she do on her holidays?",
+                "options": ["Drawing", "Walking", "Cooking"],
+                "answer": "Walking",
+                "translation": "Cô ấy làm gì vào kỳ nghỉ?",
+                "explanation": "=> Walking"
             },
             {
                 "id": "C10",
-                "question": "Where does she want to travel next?",
-                "options": [
-                    "Japan",
-                    "Italy",
-                    "Australia"
-                ],
-                "answer": "Italy",
-                "translation": "Cô ấy muốn đi du lịch ở đâu tiếp theo?",
-                "explanation": "=> Italy"
+                "question": "What do they both buy?",
+                "options": ["Books", "Trousers", "Clothes"],
+                "answer": "Clothes",
+                "translation": "Cả hai mua gì?",
+                "explanation": "=> C. Clothes (Quần áo)."
             },
             {
                 "id": "C11",
-                "question": "How many students are in the class?",
-                "options": [
-                    "15",
-                    "20",
-                    "25"
-                ],
-                "answer": "20",
-                "translation": "Có bao nhiêu học sinh trong lớp?",
-                "explanation": "=> 20"
+                "question": "What are the similarities between his mom and aunt?",
+                "options": ["They were thin", "They have the same eye color", "They have the same hair color"],
+                "answer": "They were thin",
+                "translation": "Những điểm giống nhau giữa mẹ và dì của anh ấy là gì?",
+                "explanation": "=> A. They were thin (Họ gầy)."
             },
             {
                 "id": "C12",
-                "question": "What did he have for lunch?",
-                "options": [
-                    "Sandwich",
-                    "Salad",
-                    "Soup"
-                ],
-                "answer": "Salad",
-                "translation": "Anh ấy ăn gì cho bữa trưa?",
-                "explanation": "=> Salad"
+                "question": "How many Americans are there?",
+                "options": ["one", "two", "three"],
+                "answer": "one",
+                "translation": "Có bao nhiêu người Mỹ?",
+                "explanation": "=> A. one (Một)"
             },
             {
                 "id": "C13",
-                "question": "What type of music does she prefer?",
-                "options": [
-                    "Classical",
-                    "Jazz",
-                    "Pop"
-                ],
-                "answer": "Jazz",
-                "translation": "Cô ấy thích thể loại nhạc nào?",
-                "explanation": "=> Jazz"
+                "question": "How many weeks have they been in India?",
+                "options": ["1 week", "2 weeks", "3 weeks"],
+                "answer": "2 weeks",
+                "translation": "Họ đã ở Ấn Độ được bao nhiêu tuần?",
+                "explanation": "=> B. 2 weeks (2 tuần)."
             }
         ],
         "matchingTask": {
             "id": "C14",
-            "topic": "Relaxation methods",
+            "topic": "Travel to work",
             "speakers": [
                 {
                     "id": "A",
                     "name": "Person A",
-                    "answer": "Meditation",
-                    "script": "After a long day at work, I usually spend 15 minutes meditating. I sit in a quiet room, close my eyes, and focus on my breathing. It helps me clear my mind and feel refreshed."
+                    "answer": "travel by bus",
+                    "script": "I'm concerned about the Earth and the environment, so I always look for ways to use public transportation, like buses or trains, to reduce harmful emissions. I can't walk to work because it's too far from my home, but I always walk to the local market when I need to buy groceries."
                 },
                 {
                     "id": "B",
                     "name": "Person B",
-                    "answer": "Reading books",
-                    "script": "My favorite way to relax is by reading a good book. I usually read novels before bed. It helps me escape from the stress of daily life and fall asleep easily."
+                    "answer": "travel by car",
+                    "script": "I had to take driving lessons to be able to drive to work. My mother works along the same route, so we often drive to work together. Occasionally, she takes over the driving, and I'm happy because driving together gives us more time to chat"
                 },
                 {
                     "id": "C",
                     "name": "Person C",
-                    "answer": "Listening to music",
-                    "script": "Whenever I feel stressed, I put on my headphones and listen to classical music. The soft melodies really help calm my nerves and put me in a better mood."
+                    "answer": "walk alone",
+                    "script": "I used to use my car a lot to get to work. But since I moved closer to the company, I always go there on foot. I have a friend who cycles for 20 minutes every day to work—can you imagine? She must be super fit!"
                 },
                 {
                     "id": "D",
                     "name": "Person D",
-                    "answer": "Gardening",
-                    "script": "I find gardening very relaxing. I spend my weekends taking care of my plants and flowers. There's something very peaceful about working with nature, watching things grow."
+                    "answer": "walk with a friend",
+                    "script": "I often choose to walk to work to save on gas money and to keep in shape. I usually walk to the company with a close friend. Sometimes we feel really tired but still push ourselves to walk all the way. There are times when we see a bus stop and have to resist the urge to hop on the bus."
                 }
             ],
             "options": [
-                "Meditation",
-                "Reading books",
-                "Listening to music",
-                "Gardening"
+                "travel by car",
+                "travel by bus",
+                "walk with a friend",
+                "walk alone"
             ]
         },
         "opinionTask": {
             "id": "C15",
-            "topic": "Online learning",
+            "topic": "The subject of beauty",
             "statements": [
                 {
-                    "text": "Online learning provides more flexibility",
-                    "answer": "Both"
-                },
-                {
-                    "text": "Students need face-to-face interaction",
-                    "answer": "Woman"
-                },
-                {
-                    "text": "Online courses should be cheaper",
+                    "text": "People share the very similar ideas about beauty",
                     "answer": "Man"
                 },
                 {
-                    "text": "Technology can improve education quality",
+                    "text": "Views of beauty change over time",
+                    "answer": "Woman"
+                },
+                {
+                    "text": "Beauty can be found in unlikely places",
                     "answer": "Both"
+                },
+                {
+                    "text": "Traditional ideas of beauty are going to change",
+                    "answer": "Woman"
                 }
             ],
-            "script": "M: What do you think about online learning? I think it offers so much more flexibility. W: I agree. The ability to study at your own pace is great. But I still think students need face-to-face interaction with teachers. Nothing beats asking questions in real-time. M: That's true. But with video calls and chat features, we're getting pretty close. I also think online courses should be more affordable since there are no classroom costs. W: Hmm, I'm not sure about the pricing. Quality content still costs money to produce. M: Fair point. But we can both agree that technology has the potential to really improve education, right? W: Absolutely. From interactive lessons to AI tutoring, the possibilities are endless."
+            "script": "W: Hi, what are you reading?\nM: I'm reading an article about the concept of beauty.\nW: Oh really, that sounds interesting. Beauty is something that can't be defined because everyone has a different perspective on it, right?\nM: Actually, people have quite similar perspectives on beauty. We always prefer beautiful things and are drawn to them.\nW: Beauty in the past and now is very different. The older generation might see traditional things as beautiful, while the younger generation considers unique and unconventional things as beautiful. So, not everyone has the same view on beauty.\nM: Beauty can be found in many places we wouldn't expect, or even within something considered ugly, there's always some beauty present. So, nothing in the world is entirely ugly.\nW: Exactly. That's why the definition of beauty is constantly changing. In a few decades, people might find things beautiful that we once considered ugly.\nM: That's one perspective. Let's wait and see how it changes."
         },
         "extraQuestions": [
             {
                 "id": "C16.1",
-                "question": "What is the expert's opinion about working from home?",
+                "question": "What is the advantage of this new guide?",
                 "options": [
-                    "It depends on your personality",
-                    "It is always better",
-                    "It is not productive"
+                    "It creates a sense of adventure",
+                    "It is very cheap",
+                    "It has beautiful pictures"
                 ],
-                "answer": "It depends on your personality",
-                "translation": "Ý kiến của chuyên gia về làm việc tại nhà là gì?",
-                "explanation": "=> It depends on your personality"
+                "answer": "It creates a sense of adventure",
+                "translation": "Ưu điểm của hướng dẫn mới này là gì?",
+                "explanation": "=> It creates a sense of adventure (Nó tạo ra cảm giác phiêu lưu)."
             },
             {
                 "id": "C16.2",
-                "question": "What does she say about working at home?",
+                "question": "What is the limitation of this new guide?",
                 "options": [
-                    "It is not as good as expected",
-                    "It is perfect",
-                    "Everyone should do it"
+                    "It is only suitable for a particular generation",
+                    "It is too short",
+                    "It is hard to understand"
                 ],
-                "answer": "It is not as good as expected",
-                "translation": "Cô ấy nói gì về việc làm việc tại nhà?",
-                "explanation": "=> It is not as good as expected"
+                "answer": "It is only suitable for a particular generation",
+                "translation": "Hạn chế của hướng dẫn mới này là gì?",
+                "explanation": "=> It is only suitable for a particular generation (Nó chỉ phù hợp với một thế hệ cụ thể)."
             },
             {
                 "id": "C17.1",
-                "question": "What does the movie critic say about the dialogue?",
+                "question": "How is this restaurant reviewed by customers?",
                 "options": [
-                    "The dialogues seem unrealistic",
-                    "The dialogues are perfect",
-                    "The dialogues are emotional"
+                    "The standard of service wasn’t good",
+                    "The food was terrible",
+                    "The location is bad"
                 ],
-                "answer": "The dialogues seem unrealistic",
-                "translation": "Nhà phê bình phim nói gì về lời thoại?",
-                "explanation": "=> The dialogues seem unrealistic"
+                "answer": "The standard of service wasn’t good",
+                "translation": "Nhà hàng này được khách hàng đánh giá như thế nào?",
+                "explanation": "=> The standard of service wasn’t good (Tiêu chuẩn dịch vụ không tốt)."
             },
             {
                 "id": "C17.2",
-                "question": "What is the overall assessment of the movie?",
+                "question": "What should this restaurant do?",
                 "options": [
-                    "New demand is negatively influencing scripts",
-                    "The movie is a masterpiece",
-                    "The movie needs sequels"
+                    "They need to make the customers feel valued and welcome",
+                    "They need to lower prices",
+                    "They need a new menu"
                 ],
-                "answer": "New demand is negatively influencing scripts",
-                "translation": "Đánh giá chung về bộ phim là gì?",
-                "explanation": "=> New demand is negatively influencing scripts"
+                "answer": "They need to make the customers feel valued and welcome",
+                "translation": "Nhà hàng này nên làm gì?",
+                "explanation": "=> They need to make the customers feel valued and welcome (Họ cần khiến khách hàng cảm thấy được trân trọng và chào đón)."
             }
         ]
     },
@@ -2716,268 +2612,216 @@ export const listeningData = [
         "questions": [
             {
                 "id": "C1",
-                "question": "What floor is the apartment on?",
-                "options": [
-                    "Second floor",
-                    "Third floor",
-                    "Fourth floor"
-                ],
-                "answer": "Third floor",
-                "translation": "Căn hộ ở tầng mấy?",
-                "explanation": "=> Third floor"
+                "question": "What does she usually do in her free time?",
+                "options": ["Go to the theatre and play sports", "Play sports and go shopping", "Stay at home and shop online"],
+                "answer": "Go to the theatre and play sports",
+                "translation": "Cô ấy thường làm gì vào thời gian rảnh?",
+                "explanation": "=> A. Go to the theatre and play sports (Đi xem kịch và chơi thể thao)."
             },
             {
                 "id": "C2",
-                "question": "What does he collect?",
-                "options": [
-                    "Stamps",
-                    "Coins",
-                    "Books"
-                ],
-                "answer": "Coins",
-                "translation": "Anh ấy sưu tập gì?",
-                "explanation": "=> Coins"
+                "question": "Where do they go when they travel to India?",
+                "options": ["Go to the park", "Go to famous places", "Go out to eat"],
+                "answer": "Go to the park",
+                "translation": "Họ đi đâu khi họ đến Ấn Độ?",
+                "explanation": "=> A. Go to the park (Đến công viên)."
             },
             {
                 "id": "C3",
-                "question": "When is her birthday?",
-                "options": [
-                    "March 15th",
-                    "April 15th",
-                    "May 15th"
-                ],
-                "answer": "April 15th",
-                "translation": "Sinh nhật cô ấy khi nào?",
-                "explanation": "=> April 15th"
+                "question": "What outdoor activities do they do in the afternoon?",
+                "options": ["Play golf", "Go to dance classes", "Play bridge"],
+                "answer": "Play golf",
+                "translation": "Họ làm những hoạt động ngoài trời nào vào buổi chiều?",
+                "explanation": "=> A. Play golf (Chơi golf)."
             },
             {
                 "id": "C4",
-                "question": "How much is the book?",
-                "options": [
-                    "8 pounds",
-                    "12 pounds",
-                    "15 pounds"
-                ],
-                "answer": "12 pounds",
-                "translation": "Quyển sách giá bao nhiêu?",
-                "explanation": "=> 12 pounds"
+                "question": "Where does she walk every night?",
+                "options": ["The university area", "The park", "The college"],
+                "answer": "The college",
+                "translation": "Cô ấy đi bộ mỗi tối ở đâu?",
+                "explanation": "=> C. The college (Trường cao đẳng)."
             },
             {
                 "id": "C5",
-                "question": "What is the weather like tomorrow?",
-                "options": [
-                    "Sunny",
-                    "Rainy",
-                    "Cloudy"
-                ],
-                "answer": "Rainy",
-                "translation": "Thời tiết ngày mai như thế nào?",
-                "explanation": "=> Rainy"
+                "question": "How many chairs do they need to prepare for a meeting?",
+                "options": ["10", "20", "30"],
+                "answer": "20",
+                "translation": "Họ cần chuẩn bị bao nhiêu cái ghế cho cuộc họp?",
+                "explanation": "=> B. 20"
             },
             {
                 "id": "C6",
-                "question": "Where did she leave her umbrella?",
-                "options": [
-                    "At the office",
-                    "On the bus",
-                    "At home"
-                ],
-                "answer": "On the bus",
-                "translation": "Cô ấy để quên ô ở đâu?",
-                "explanation": "=> On the bus"
+                "question": "Where did she ask the coffee shop to look for her lost item?",
+                "options": ["On the sofa", "In the corner", "On the table"],
+                "answer": "In the corner",
+                "translation": "Cô ấy đã yêu cầu quán cà phê tìm đồ thất lạc của mình ở đâu?",
+                "explanation": "=> B. In the corner (Ở góc)."
             },
             {
                 "id": "C7",
-                "question": "What did he study at university?",
-                "options": [
-                    "Law",
-                    "Business",
-                    "Engineering"
-                ],
-                "answer": "Business",
-                "translation": "Anh ấy học gì ở đại học?",
-                "explanation": "=> Business"
+                "question": "Where did they meet?",
+                "options": ["The parking lot", "The front entrance", "The school gate"],
+                "answer": "The front entrance",
+                "translation": "Họ gặp nhau ở đâu?",
+                "explanation": "=> B. The front entrance (Lối vào phía trước (cổng chính))."
             },
             {
                 "id": "C8",
-                "question": "How often does she go swimming?",
-                "options": [
-                    "Once a week",
-                    "Twice a week",
-                    "Three times a week"
-                ],
-                "answer": "Twice a week",
-                "translation": "Cô ấy đi bơi bao lâu một lần?",
-                "explanation": "=> Twice a week"
+                "question": "The daughter is calling her father. What did she buy?",
+                "options": ["Trousers", "A dress", "Glasses"],
+                "answer": "A dress",
+                "translation": "Người con gái đang gọi cho cha mình. Cô ấy đã mua gì?",
+                "explanation": "=> B. A dress (Một chiếc váy)."
             },
             {
                 "id": "C9",
-                "question": "What is his favorite food?",
-                "options": [
-                    "Pizza",
-                    "Pasta",
-                    "Sushi"
-                ],
-                "answer": "Pasta",
-                "translation": "Món ăn yêu thích của anh ấy là gì?",
-                "explanation": "=> Pasta"
+                "question": "There will be a school party soon, what should the teacher prepare?",
+                "options": ["Prepare drinks", "Arrange the seat", "Order the food"],
+                "answer": "Order the food",
+                "translation": "Sắp tới sẽ có một bữa tiệc ở trường, giáo viên nên chuẩn bị gì?",
+                "explanation": "=> C. Order the food (Đặt đồ ăn)."
             },
             {
                 "id": "C10",
-                "question": "Where is the nearest pharmacy?",
-                "options": [
-                    "Next to the bank",
-                    "Opposite the post office",
-                    "Behind the school"
-                ],
-                "answer": "Opposite the post office",
-                "translation": "Hiệu thuốc gần nhất ở đâu?",
-                "explanation": "=> Opposite the post office"
+                "question": "When will she need a computer?",
+                "options": ["Friday", "Thursday", "Monday"],
+                "answer": "Friday",
+                "translation": "Cô ấy sẽ cần máy tính khi nào?",
+                "explanation": "=> A. Friday (Thứ sáu)."
             },
             {
                 "id": "C11",
-                "question": "How many pets does she have?",
-                "options": [
-                    "One",
-                    "Two",
-                    "Three"
-                ],
-                "answer": "Two",
-                "translation": "Cô ấy có bao nhiêu thú cưng?",
-                "explanation": "=> Two"
+                "question": "What country will they study next semester?",
+                "options": ["France", "Italy", "Germany"],
+                "answer": "France",
+                "translation": "Họ sẽ học về quốc gia nào vào học kỳ sau?",
+                "explanation": "=> A. France (Pháp)."
             },
             {
                 "id": "C12",
-                "question": "What colour is the new car?",
-                "options": [
-                    "White",
-                    "Silver",
-                    "Black"
-                ],
-                "answer": "Silver",
-                "translation": "Chiếc xe mới màu gì?",
-                "explanation": "=> Silver"
+                "question": "What do they need to repair for the building?",
+                "options": ["Windows", "Doors", "Gate"],
+                "answer": "Windows",
+                "translation": "Họ cần sửa gì cho tòa nhà?",
+                "explanation": "=> A. Windows (Cửa sổ)."
             },
             {
                 "id": "C13",
-                "question": "When does the exhibition start?",
-                "options": [
-                    "Next Monday",
-                    "Next Wednesday",
-                    "Next Friday"
-                ],
-                "answer": "Next Wednesday",
-                "translation": "Triển lãm bắt đầu khi nào?",
-                "explanation": "=> Next Wednesday"
+                "question": "What does the actor like to do?",
+                "options": ["Jogging", "Swimming", "Drawing"],
+                "answer": "Drawing",
+                "translation": "Diễn viên thích làm gì?",
+                "explanation": "=> C. Drawing (Vẽ)."
             }
         ],
         "matchingTask": {
             "id": "C14",
-            "topic": "Weekend activities",
+            "topic": "Doing exercise",
             "speakers": [
                 {
                     "id": "A",
                     "name": "Person A",
-                    "answer": "Cooking",
-                    "script": "On weekends, I love spending time in the kitchen. I try new recipes and cook meals for my family. Last weekend, I made a delicious Thai curry."
+                    "answer": "hate exercising",
+                    "script": "My friends often advise me to exercise to maintain a good physique and health. However, I am very busy with a tight work schedule. Even if I weren’t busy, I still wouldn’t like to exercise. I feel uncomfortable as soon as I put on workout clothes. I don’t think exercise is something that suits me."
                 },
                 {
                     "id": "B",
                     "name": "Person B",
-                    "answer": "Watching movies",
-                    "script": "I'm a big movie fan. Every Saturday night, I order pizza and watch a movie at home. I prefer comedies and action films."
+                    "answer": "help improve work performance",
+                    "script": "I know that working out every day is good for my health and helps me get in shape. But what I've found is that exercising actually boosts my productivity a lot and really helps me focus better. So, I always try to squeeze in some exercise before heading to work—it definitely makes me more productive."
                 },
                 {
                     "id": "C",
                     "name": "Person C",
-                    "answer": "Playing sports",
-                    "script": "Weekends are my time for sports. I play basketball with my friends on Saturday morning and go swimming on Sunday. It keeps me fit and happy."
+                    "answer": "find exercise tiring",
+                    "script": "We’ve all heard about the many benefits of exercising, and I know about them too. My friends often invite me to work out, but after I exercise, I end up feeling extremely exhausted and spend the rest of the day just lying around to recover."
                 },
                 {
                     "id": "D",
                     "name": "Person D",
-                    "answer": "Shopping",
-                    "script": "I usually go shopping on weekends with my friends. We visit different malls and try on clothes. It's a great way to relax and have fun."
+                    "answer": "has fun when exercising with friends",
+                    "script": "I often go to the gym to work out, but what really motivates me to workout is catching up with my friends there, not just for improving my health. Plus, it’s a great way to meet and make new friends. For me, exercising is just another chance to socialize."
                 }
             ],
             "options": [
-                "Cooking",
-                "Watching movies",
-                "Playing sports",
-                "Shopping"
+                "help improve work performance",
+                "hate exercising",
+                "has fun when exercising with friends",
+                "find exercise tiring"
             ]
         },
         "opinionTask": {
             "id": "C15",
-            "topic": "Working hours",
+            "topic": "Music",
             "statements": [
                 {
-                    "text": "Flexible working hours improve productivity",
+                    "text": "Singers play a good role for young people",
+                    "answer": "Man"
+                },
+                {
+                    "text": "Taste in music is a highly personal thing",
                     "answer": "Both"
                 },
                 {
-                    "text": "Traditional 9-5 is outdated",
-                    "answer": "Man"
-                },
-                {
-                    "text": "Working long hours leads to burnout",
+                    "text": "Music is a universal language",
                     "answer": "Woman"
                 },
                 {
-                    "text": "Remote work is the future",
-                    "answer": "Man"
+                    "text": "Music can manipulate people's feelings",
+                    "answer": "Both"
                 }
             ],
-            "script": "M: I think the traditional 9-5 work schedule is becoming outdated. Many companies are now offering flexible hours. W: I agree that flexibility is good. It definitely helps with productivity. When people can choose their best working hours, they produce better results. M: Exactly. And with technology, remote work is clearly the future. We can work from anywhere now. W: Maybe, but I'm more concerned about the health aspect. Working long hours, whether at home or in the office, can lead to serious burnout. M: That's a valid point. But I think if we have better control over our schedules, we can manage our work-life balance better."
+            "script": "M: Did you hear about the concert last night? A lot of young people attended.\nW: Yes, I know about that concert; it was very popular. I don’t understand why so many young people are so eager to attend. They're blindly idolizing young singers, and these idols don’t really teach them anything good.\nM: I see it differently. The young singers today are very talented, and they do a lot of charitable work for society. I think young people look up to them and follow their example.\nW: Yes, they volunteer a lot, but they do it for the wrong reasons. They only want to boost their own fame.\nM: Oh, I think you don't like young singers because you don't enjoy their music, right?\nW: Exactly, I only like listening to classical music from previous generations. I think music preferences are very personal and each generation has its own unique taste in music. But music is always a universal language that conveys emotions everyone can understand.\nM: I didn’t study music like you, so I don’t really have any ideas about this.\nW: You don’t need to study music to understand it. Just think about why you cry during a sad movie scene when the music plays or why you feel energized when you hear a happy song. Isn’t that right?\nM: Yes, I think that’s why films always try to include at least one piece of music."
         },
         "extraQuestions": [
             {
                 "id": "C16.1",
-                "question": "What does the expert recommend about saving money?",
+                "question": "How does she feel about working from home?",
                 "options": [
-                    "Set clear financial targets",
-                    "Spend less",
-                    "Earn more"
+                    "It wasn't as good as she expected",
+                    "It is the best way to work",
+                    "It is very boring"
                 ],
-                "answer": "Set clear financial targets",
-                "translation": "Chuyên gia khuyên gì về tiết kiệm tiền?",
-                "explanation": "=> Set clear financial targets"
+                "answer": "It wasn't as good as she expected",
+                "translation": "Cô ấy cảm thấy thế nào về việc làm việc tại nhà?",
+                "explanation": "=> It wasn't as good as she expected (Nó không tốt như cô ấy mong đợi)"
             },
             {
                 "id": "C16.2",
-                "question": "What is the most common mistake people make with money?",
+                "question": "What is her opinion on working from home in general?",
                 "options": [
-                    "Not tracking expenses",
-                    "Investing too much",
-                    "Saving too much"
+                    "It depends on your situation and personality",
+                    "Everyone should try it",
+                    "It is not suitable for anyone"
                 ],
-                "answer": "Not tracking expenses",
-                "translation": "Sai lầm phổ biến nhất về tiền bạc là gì?",
-                "explanation": "=> Not tracking expenses"
+                "answer": "It depends on your situation and personality",
+                "translation": "Quan điểm của cô ấy về làm việc tại nhà nói chung là gì?",
+                "explanation": "=> It depends on your situation and personality (Phụ thuộc vào hoàn cảnh và tính cách của bạn)."
             },
             {
                 "id": "C17.1",
-                "question": "What does the presenter say about the new documentary?",
+                "question": "Why is the book so popular?",
                 "options": [
-                    "It presents information in an engaging way",
-                    "It is boring",
-                    "It is too long"
+                    "It uses simple language to describe complex ideas",
+                    "It has great illustrations",
+                    "It is very short"
                 ],
-                "answer": "It presents information in an engaging way",
-                "translation": "Người dẫn chương trình nói gì về phim tài liệu mới?",
-                "explanation": "=> It presents information in an engaging way"
+                "answer": "It uses simple language to describe complex ideas",
+                "translation": "Tại sao cuốn sách lại nổi tiếng như vậy?",
+                "explanation": "=> It uses simple language to describe complex ideas (Nó dùng ngôn ngữ đơn giản để mô tả những ý tưởng phức tạp)."
             },
             {
                 "id": "C17.2",
-                "question": "What impact will this documentary have?",
+                "question": "What do people criticize about the book?",
                 "options": [
-                    "It will raise awareness about the topic",
-                    "It will be forgotten",
-                    "It will win awards"
+                    "It is similar to the previous book about the scientist",
+                    "It is too expensive",
+                    "It is boring"
                 ],
-                "answer": "It will raise awareness about the topic",
-                "translation": "Phim tài liệu này sẽ có tác động gì?",
-                "explanation": "=> It will raise awareness about the topic"
+                "answer": "It is similar to the previous book about the scientist",
+                "translation": "Mọi người chỉ trích điều gì về cuốn sách?",
+                "explanation": "=> It is similar to the previous book about the scientist (Nó giống với cuốn sách trước đây về nhà khoa học)"
             }
         ]
     },
@@ -2987,268 +2831,216 @@ export const listeningData = [
         "questions": [
             {
                 "id": "C1",
-                "question": "What day is the meeting?",
-                "options": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday"
-                ],
-                "answer": "Wednesday",
-                "translation": "Cuộc họp diễn ra vào ngày nào?",
-                "explanation": "=> Wednesday"
+                "question": "What new thing is being built at the school?",
+                "options": ["A stadium", "A Performance space", "A school yard"],
+                "answer": "A Performance space",
+                "translation": "Đang xây dựng gì mới tại trường?",
+                "explanation": "=> B. A Performance space (Một không gian biểu diễn)."
             },
             {
                 "id": "C2",
-                "question": "Where is the new gym?",
-                "options": [
-                    "Near the station",
-                    "Next to the supermarket",
-                    "Opposite the park"
-                ],
-                "answer": "Near the station",
-                "translation": "Phòng gym mới ở đâu?",
-                "explanation": "=> Near the station"
+                "question": "What does he advice young people to do to save money?",
+                "options": ["Cook for yourself", "Save money", "Buy things online"],
+                "answer": "Cook for yourself",
+                "translation": "Anh ấy khuyên người trẻ làm gì để tiết kiệm tiền?",
+                "explanation": "=> A. Cook for yourself (Tự nấu ăn)."
             },
             {
                 "id": "C3",
-                "question": "How does she get to work?",
-                "options": [
-                    "By car",
-                    "By bicycle",
-                    "On foot"
-                ],
-                "answer": "By bicycle",
-                "translation": "Cô ấy đi làm bằng cách nào?",
-                "explanation": "=> By bicycle"
+                "question": "What does he like about Dubai?",
+                "options": ["He gets a higher salary", "He enjoys the weather here", "He enjoys his job here"],
+                "answer": "He enjoys his job here",
+                "translation": "Anh ấy thích điều gì ở Dubai?",
+                "explanation": "=> C. He enjoys his job here (Anh ấy thích công việc của mình ở đây)."
             },
             {
                 "id": "C4",
-                "question": "What is his brother's job?",
-                "options": [
-                    "Doctor",
-                    "Lawyer",
-                    "Architect"
-                ],
-                "answer": "Architect",
-                "translation": "Anh trai anh ấy làm nghề gì?",
-                "explanation": "=> Architect"
+                "question": "A man is talking to his son's teacher. What will he do?",
+                "options": ["Arrange private classes", "Do homework with his son", "Arrange sports classes"],
+                "answer": "Arrange private classes",
+                "translation": "Một người đàn ông đang nói chuyện với giáo viên của con trai mình. Anh ấy sẽ làm gì?",
+                "explanation": "=> A. Arrange private classes (Sắp xếp các buổi học riêng)."
             },
             {
                 "id": "C5",
-                "question": "How much did the shoes cost?",
-                "options": [
-                    "40 pounds",
-                    "50 pounds",
-                    "60 pounds"
-                ],
-                "answer": "50 pounds",
-                "translation": "Đôi giày giá bao nhiêu?",
-                "explanation": "=> 50 pounds"
+                "question": "What does he do after work? (2)",
+                "options": ["Goes fishing", "Goes running", "Goes cycling"],
+                "answer": "Goes running",
+                "translation": "Anh ấy làm gì sau giờ làm? (2)",
+                "explanation": "=> A. Goes running (Đi chạy bộ)."
             },
             {
                 "id": "C6",
-                "question": "What time does the restaurant open?",
-                "options": [
-                    "11am",
-                    "12pm",
-                    "1pm"
-                ],
-                "answer": "12pm",
-                "translation": "Nhà hàng mở cửa lúc mấy giờ?",
-                "explanation": "=> 12pm"
+                "question": "How much is the bus ticket?",
+                "options": ["2,5", "4", "6,5"],
+                "answer": "2,5",
+                "translation": "Vé xe buýt giá bao nhiêu?",
+                "explanation": "=> A. 2,5"
             },
             {
                 "id": "C7",
-                "question": "What colour does she like best?",
-                "options": [
-                    "Blue",
-                    "Green",
-                    "Purple"
-                ],
-                "answer": "Green",
-                "translation": "Cô ấy thích màu gì nhất?",
-                "explanation": "=> Green"
+                "question": "A woman is talking to a shop assistant. Why does the woman return the dress?",
+                "options": ["Because of its size", "Because of its color", "Because of its pattern"],
+                "answer": "Because of its size",
+                "translation": "Một người phụ nữ đang nói chuyện với nhân viên bán hàng. Tại sao người phụ nữ trả lại chiếc váy?",
+                "explanation": "=> A. Because of its size (Vì kích cỡ của nó)."
             },
             {
                 "id": "C8",
-                "question": "Where did he go last summer?",
-                "options": [
-                    "Spain",
-                    "France",
-                    "Greece"
-                ],
-                "answer": "Greece",
-                "translation": "Mùa hè năm ngoái anh ấy đi đâu?",
-                "explanation": "=> Greece"
+                "question": "A woman is talking to the police. What did she lose?",
+                "options": ["A necklace", "A bag", "A wallet"],
+                "answer": "A bag",
+                "translation": "Một người phụ nữ đang nói chuyện với cảnh sát. Cô ấy đã mất gì?",
+                "explanation": "=> B. A bag (Một chiếc túi)."
             },
             {
                 "id": "C9",
-                "question": "How many chapters does the book have?",
-                "options": [
-                    "10",
-                    "15",
-                    "20"
-                ],
-                "answer": "15",
-                "translation": "Quyển sách có bao nhiêu chương?",
-                "explanation": "=> 15"
+                "question": "Tom is talking with his friend about his teachers. What is his favourite teacher?",
+                "options": ["Mr. Styles", "Miss Taylor", "Miss Brown"],
+                "answer": "Miss Brown",
+                "translation": "Tom đang nói chuyện với bạn về các giáo viên của mình. Giáo viên yêu thích của cậu ấy là ai?",
+                "explanation": "=> C. Miss Brown (Cô Brown)."
             },
             {
                 "id": "C10",
-                "question": "What instrument does she play?",
-                "options": [
-                    "Guitar",
-                    "Piano",
-                    "Violin"
-                ],
-                "answer": "Piano",
-                "translation": "Cô ấy chơi nhạc cụ gì?",
-                "explanation": "=> Piano"
+                "question": "What is special about the new song?",
+                "options": ["The singer", "The words", "The melody"],
+                "answer": "The words",
+                "translation": "Bài hát mới có gì đặc biệt?",
+                "explanation": "=> B. The words (Lời bài hát)."
             },
             {
                 "id": "C11",
-                "question": "When will the project be finished?",
-                "options": [
-                    "Next week",
-                    "Next month",
-                    "In two months"
-                ],
-                "answer": "Next month",
-                "translation": "Dự án sẽ hoàn thành khi nào?",
-                "explanation": "=> Next month"
+                "question": "What time does the train leave? (for him to go on a business trip)",
+                "options": ["9.45", "8.45", "9.15"],
+                "answer": "9.15",
+                "translation": "Tàu khởi hành lúc mấy giờ? (để anh ấy đi công tác)",
+                "explanation": "=> C. 9.15"
             },
             {
                 "id": "C12",
-                "question": "What type of house does she live in?",
-                "options": [
-                    "Apartment",
-                    "Detached house",
-                    "Semi-detached"
-                ],
-                "answer": "Apartment",
-                "translation": "Cô ấy sống trong loại nhà nào?",
-                "explanation": "=> Apartment"
+                "question": "What does she have in common with her mother?",
+                "options": ["They look like each other", "They have similar interests", "They have similar characteristics"],
+                "answer": "They have similar interests",
+                "translation": "Cô ấy có điểm gì chung với mẹ của mình?",
+                "explanation": "=> B. They have similar interests (Họ có những sở thích giống nhau)."
             },
             {
                 "id": "C13",
-                "question": "How often does he visit his parents?",
-                "options": [
-                    "Every week",
-                    "Every two weeks",
-                    "Once a month"
-                ],
-                "answer": "Every two weeks",
-                "translation": "Bao lâu anh ấy về thăm bố mẹ?",
-                "explanation": "=> Every two weeks"
+                "question": "What did she advice for people who lack motivation at work?",
+                "options": ["quit the job", "ask for a salary increase", "request a transfer"],
+                "answer": "request a transfer",
+                "translation": "Cô ấy khuyên những người thiếu động lực trong công việc làm gì?",
+                "explanation": "=> C. request a transfer (Yêu cầu chuyển công tác)."
             }
         ],
         "matchingTask": {
             "id": "C14",
-            "topic": "Traveling",
+            "topic": "Using the internet",
             "speakers": [
                 {
                     "id": "A",
                     "name": "Person A",
-                    "answer": "By airplane",
-                    "script": "I travel a lot for work, and I always choose to fly because it saves so much time. Even though airport security can be stressful, the speed of air travel makes up for it."
+                    "answer": "watch films",
+                    "script": "I am a big fan of newly released movies, but the cost of going to the cinema is too high. I'm just a student, so I can't afford to go to the cinema regularly to indulge in my hobby. Therefore, I think the internet is great because it allows me to watch movies for free at home. I save both the time of going to the cinema and a considerable amount of money."
                 },
                 {
                     "id": "B",
                     "name": "Person B",
-                    "answer": "By train",
-                    "script": "I prefer traveling by train. You can see beautiful countryside views, read a book, or just relax. The journey itself becomes part of the experience."
+                    "answer": "communicate with friends",
+                    "script": "In today's digital age, the internet helps us access social media to stay constantly connected with friends. Especially since I have relatives mainly living abroad or in distant cities, the internet has been a great help for my family to stay in touch. We often video call each other to share daily stories."
                 },
                 {
                     "id": "C",
                     "name": "Person C",
-                    "answer": "By car",
-                    "script": "I love road trips! I can stop wherever I want, explore small towns, and I can bring as much luggage as I need. The freedom of driving is unmatched."
+                    "answer": "complete assignments",
+                    "script": "The internet is a great resource for research, finding materials, and useful information for studying. My friends and I often go to each other's houses to do homework together. Instead of spending hours trying to figure out how to do our homework, we quickly go online and find the answers."
                 },
                 {
                     "id": "D",
                     "name": "Person D",
-                    "answer": "By bicycle",
-                    "script": "Whenever I travel short distances, I take my bicycle. It's eco-friendly, great exercise, and I can explore places that cars can't reach."
+                    "answer": "find transport information",
+                    "script": "I see that people often use the internet to watch movies, read newspapers, quickly update the news, and so on. But I usually use the internet to find directions and public transport to my friends' and relatives' houses. I'm a forgetful person, and I often forget the way, even if I've been there a hundred times. So the internet helps me a lot in not getting lost and easily find nearby public transport."
                 }
             ],
             "options": [
-                "By airplane",
-                "By train",
-                "By car",
-                "By bicycle"
+                "watch films",
+                "complete assignments",
+                "communicate with friends",
+                "find transport information"
             ]
         },
         "opinionTask": {
             "id": "C15",
-            "topic": "Social media",
+            "topic": "The community",
             "statements": [
                 {
-                    "text": "Social media connects people globally",
+                    "text": "Building design can influence people's behavior",
                     "answer": "Both"
                 },
                 {
-                    "text": "Privacy is a growing concern",
+                    "text": "Creating community can take time",
                     "answer": "Woman"
                 },
                 {
-                    "text": "Social media can spread misinformation",
-                    "answer": "Both"
+                    "text": "Work communities and social communities are the same",
+                    "answer": "Man"
                 },
                 {
-                    "text": "Young people spend too much time on social media",
-                    "answer": "Man"
+                    "text": "Technology has changed how community forms",
+                    "answer": "Both"
                 }
             ],
-            "script": "M: Social media has really changed how we communicate. It connects people from all over the world. W: True. I can stay in touch with friends in different countries so easily. But I'm really worried about privacy. Companies collect so much of our data. M: I understand your concern. But what worries me more is how much time young people spend on these platforms. W: That's a fair point. And we both know that misinformation spreads like wildfire on social media. M: Absolutely. People share news without verifying it first, and that can be really dangerous."
+            "script": "Man: \"You know, I believe building design can shape people’s behaviors and interactions from the start. When spaces are designed well, people feel comfortable and naturally start connecting.\"\nWoman: \"Of course, design matters. Besides, there’s no shortcut to building real community connections. Creating community takes time and consistency, even in spaces that encourage interaction.\"\nMan: \"Really? But I also feel that work communities and social communities aren’t as different as we might think. Both require spaces that help people feel connected and valued, whether it’s at work or in social settings.\"\nWoman: \"I’m not sure I agree with that. Work communities and social communities serve very different purposes. In a social community, people gather out of personal interest and shared hobbies, but in work communities, people connect because of their job roles. That can affect how close they feel and how they interact with one another.\"\nMan: \"I see your point, but even in work communities, people still find ways to connect on a personal level. A good work environment encourages friendships that might go beyond work topics.\"\nWoman: \"That’s a good point. And with technology, people can now connect for both work and social reasons, even if they’re not physically together. But I still think it’s important to build spaces where people can gather in person.\"\nMan: \"Yes, I agree, but I think technology has really changed how communities form. It makes connecting so much easier, and people don’t always need to meet face to-face to feel a sense of community.\"\nWoman: \"Yeah I see that, virtual spaces can be just as meaningful. Technology adds a new layer, making it possible for communities to thrive even across distances, and that’s valuable in its own way.\""
         },
         "extraQuestions": [
             {
                 "id": "C16.1",
-                "question": "What do businesses need to understand about pricing?",
+                "question": "How does creating each small plan help you?",
                 "options": [
-                    "Customers will research before buying",
-                    "Lower prices are always better",
-                    "Price doesn't matter"
+                    "They help you make decisions",
+                    "They save time",
+                    "They make you rich"
                 ],
-                "answer": "Customers will research before buying",
-                "translation": "Doanh nghiệp cần hiểu gì về giá cả?",
-                "explanation": "=> Customers will research before buying"
+                "answer": "They help you make decisions",
+                "translation": "Việc tạo từng kế hoạch nhỏ giúp bạn như thế nào?",
+                "explanation": "=> They help you make decisions (Chúng giúp bạn đưa ra quyết định)."
             },
             {
                 "id": "C16.2",
-                "question": "What is the key to successful marketing?",
+                "question": "How does creating a plan help you in general?",
                 "options": [
-                    "Understanding customer needs",
-                    "Spending more money",
-                    "Having the cheapest product"
+                    "It requires you to set yourself certain limits",
+                    "It gives you free time",
+                    "It reduces stress"
                 ],
-                "answer": "Understanding customer needs",
-                "translation": "Chìa khóa để marketing thành công là gì?",
-                "explanation": "=> Understanding customer needs"
+                "answer": "It requires you to set yourself certain limits",
+                "translation": "Việc lập kế hoạch nói chung giúp bạn như thế nào?",
+                "explanation": "=> It requires you to set yourself certain limits (Nó buộc bạn tự đặt ra những giới hạn nhất định)."
             },
             {
                 "id": "C17.1",
-                "question": "What makes this book different from others?",
+                "question": "What is the importance of advertising?",
                 "options": [
-                    "The unique perspective of the author",
-                    "The number of pages",
-                    "The illustrations"
+                    "It can help reach new customers",
+                    "It wastes money",
+                    "It is unnecessary"
                 ],
-                "answer": "The unique perspective of the author",
-                "translation": "Điều gì làm cuốn sách này khác biệt?",
-                "explanation": "=> The unique perspective of the author"
+                "answer": "It can help reach new customers",
+                "translation": "Tầm quan trọng của quảng cáo là gì?",
+                "explanation": "=> It can help reach new customers (Nó có thể giúp tiếp cận những khách hàng mới)."
             },
             {
                 "id": "C17.2",
-                "question": "What will readers gain from this book?",
+                "question": "Why shouldn't we sponsor sports tournaments?",
                 "options": [
-                    "A deeper understanding of the subject",
-                    "Entertainment only",
-                    "Nothing new"
+                    "They can generate negative publicity for the sport",
+                    "They cost too much",
+                    "They are boring"
                 ],
-                "answer": "A deeper understanding of the subject",
-                "translation": "Độc giả sẽ thu được gì từ cuốn sách này?",
-                "explanation": "=> A deeper understanding of the subject"
+                "answer": "They can generate negative publicity for the sport",
+                "translation": "Tại sao chúng ta không nên tài trợ cho các giải đấu thể thao?",
+                "explanation": "=> They can generate negative publicity for the sport (Chúng có thể tạo ra dư luận tiêu cực cho môn thể thao đó)."
             }
         ]
     },
@@ -3258,268 +3050,216 @@ export const listeningData = [
         "questions": [
             {
                 "id": "C1",
-                "question": "Where did she find the keys?",
-                "options": [
-                    "In the drawer",
-                    "Under the table",
-                    "In her coat pocket"
-                ],
-                "answer": "In her coat pocket",
-                "translation": "Cô ấy tìm thấy chìa khóa ở đâu?",
-                "explanation": "=> In her coat pocket"
+                "question": "Listen to the speaker talking on the radio. What is she talking about?",
+                "options": ["Her favorite hobby", "Her journey to work", "Her weekend plans"],
+                "answer": "Her journey to work",
+                "translation": "Cô ấy đang nói về điều gì?",
+                "explanation": "=> B. Her journey to work (Chuyến đi đến chỗ làm của cô ấy)."
             },
             {
                 "id": "C2",
-                "question": "What time does the film start?",
-                "options": [
-                    "7pm",
-                    "7:30pm",
-                    "8pm"
-                ],
-                "answer": "7:30pm",
-                "translation": "Bộ phim bắt đầu lúc mấy giờ?",
-                "explanation": "=> 7:30pm"
+                "question": "A woman tells her friend about her plans for the day. What is the woman going to do?",
+                "options": ["Have coffee", "Have lunch", "Drink tea"],
+                "answer": "Have coffee",
+                "translation": "Một người phụ nữ kể với bạn về kế hoạch trong ngày. Người phụ nữ định làm gì?",
+                "explanation": "=> A. Have coffee (Uống cà phê)."
             },
             {
                 "id": "C3",
-                "question": "How many books did she read last month?",
-                "options": [
-                    "Three",
-                    "Four",
-                    "Five"
-                ],
-                "answer": "Four",
-                "translation": "Tháng trước cô ấy đọc được bao nhiêu quyển sách?",
-                "explanation": "=> Four"
+                "question": "Listen to an auction man talking about a cabinet. Which part of the cabinet is original?",
+                "options": ["The drawer", "The doors", "The handles"],
+                "answer": "The drawer",
+                "translation": "Hãy nghe một người điều khiển buổi đấu giá nói về một chiếc tủ. Bộ phận nào của chiếc tủ là nguyên bản?",
+                "explanation": "=> A. The drawer (Ngăn kéo)."
             },
             {
                 "id": "C4",
-                "question": "What is his favorite season?",
-                "options": [
-                    "Spring",
-                    "Summer",
-                    "Autumn"
-                ],
-                "answer": "Autumn",
-                "translation": "Mùa yêu thích của anh ấy là gì?",
-                "explanation": "=> Autumn"
+                "question": "A finance expert is giving advice to young people. What shouldn't they do?",
+                "options": ["Ask for more money.", "Spend too much on clothes.", "Save for emergencies."],
+                "answer": "Ask for more money.",
+                "translation": "Một chuyên gia tài chính đang khuyên người trẻ. Họ không nên làm gì?",
+                "explanation": "=> A. Ask for more money. (Xin thêm tiền)."
             },
             {
                 "id": "C5",
-                "question": "Where is the post office?",
-                "options": [
-                    "Opposite the bank",
-                    "Next to the cafe",
-                    "Behind the church"
-                ],
-                "answer": "Next to the cafe",
-                "translation": "Bưu điện ở đâu?",
-                "explanation": "=> Next to the cafe"
+                "question": "Listen to a woman explaining why he was late. What is the main reason he gets late?",
+                "options": ["Overslept", "Forgot something", "Missed the train"],
+                "answer": "Missed the train",
+                "translation": "Hãy nghe một người phụ nữ giải thích lý do anh ấy đến muộn. Lý do chính khiến anh ấy đến muộn là gì?",
+                "explanation": "=> C. Missed the train (Bị lỡ tàu)."
             },
             {
                 "id": "C6",
-                "question": "What does she want to study?",
-                "options": [
-                    "Medicine",
-                    "Science",
-                    "Psychology"
-                ],
-                "answer": "Psychology",
-                "translation": "Cô ấy muốn học ngành gì?",
-                "explanation": "=> Psychology"
+                "question": "David is in an interview. What was his last job?",
+                "options": ["A teacher", "An engineer", "An electrician"],
+                "answer": "An electrician",
+                "translation": "David đang trong buổi phỏng vấn. Công việc trước đây của anh ấy là gì?",
+                "explanation": "=> C. An electrician (Một thợ điện)."
             },
             {
                 "id": "C7",
-                "question": "How old is his oldest child?",
-                "options": [
-                    "Seven",
-                    "Nine",
-                    "Twelve"
-                ],
-                "answer": "Nine",
-                "translation": "Con lớn nhất của anh ấy bao nhiêu tuổi?",
-                "explanation": "=> Nine"
+                "question": "A tour guide is introducing a famous building. What is this building currently used for?",
+                "options": ["A museum", "A department store", "A cinema"],
+                "answer": "A department store",
+                "translation": "Một hướng dẫn viên du lịch đang giới thiệu một tòa nhà nổi tiếng. Tòa nhà này hiện được sử dụng để làm gì?",
+                "explanation": "=> B. A department store (Một cửa hàng bách hóa)."
             },
             {
                 "id": "C8",
-                "question": "What did they decide to eat?",
-                "options": [
-                    "Chinese food",
-                    "Italian food",
-                    "Indian food"
-                ],
-                "answer": "Indian food",
-                "translation": "Họ quyết định ăn gì?",
-                "explanation": "=> Indian food"
+                "question": "A woman is going to the cinema with her husband. What time does the movie begin?",
+                "options": ["6:40", "7:00", "9:20"],
+                "answer": "6:40",
+                "translation": "Một người phụ nữ sắp đi xem phim cùng chồng. Bộ phim bắt đầu lúc mấy giờ?",
+                "explanation": "=> A. 6:40"
             },
             {
                 "id": "C9",
-                "question": "What time does the bank close?",
-                "options": [
-                    "3pm",
-                    "4pm",
-                    "5pm"
-                ],
-                "answer": "4pm",
-                "translation": "Ngân hàng đóng cửa lúc mấy giờ?",
-                "explanation": "=> 4pm"
+                "question": "A man is calling his mother. How long will he be late?",
+                "options": ["10 minutes", "15 minutes", "20 minutes"],
+                "answer": "10 minutes",
+                "translation": "Một người đàn ông đang gọi điện cho mẹ mình. Anh ấy sẽ trễ bao lâu?",
+                "explanation": "=> A. 10 minutes (10 phút)."
             },
             {
                 "id": "C10",
-                "question": "Where is the car parked?",
-                "options": [
-                    "Level 2",
-                    "Level 3",
-                    "Level 4"
-                ],
-                "answer": "Level 3",
-                "translation": "Xe đỗ ở tầng nào?",
-                "explanation": "=> Level 3"
+                "question": "The man is talking about his key. Where did he find the key?",
+                "options": ["In his car", "In the front door", "In the bedroom"],
+                "answer": "In the front door",
+                "translation": "Người đàn ông đang nói về chiếc chìa khóa của mình. Anh ấy đã tìm thấy chiếc chìa khóa ở đâu?",
+                "explanation": "=> B. In the front door (Ở cửa trước)."
             },
             {
                 "id": "C11",
-                "question": "What does she need to buy?",
-                "options": [
-                    "Milk",
-                    "Bread",
-                    "Eggs"
-                ],
-                "answer": "Bread",
-                "translation": "Cô ấy cần mua gì?",
-                "explanation": "=> Bread"
+                "question": "A man is talking about his job. Where is he working now?",
+                "options": ["In a bank", "At a university", "In a big company"],
+                "answer": "In a bank",
+                "translation": "Một người đàn ông đang nói về công việc của mình. Hiện tại anh ấy đang làm việc ở đâu?",
+                "explanation": "=> A. In a bank (Trong một ngân hàng)."
             },
             {
                 "id": "C12",
-                "question": "How many people work in his office?",
-                "options": [
-                    "About 40",
-                    "About 50",
-                    "About 60"
-                ],
-                "answer": "About 50",
-                "translation": "Có bao nhiêu người làm việc ở văn phòng anh ấy?",
-                "explanation": "=> About 50"
+                "question": "Listen to a woman giving advice on saving money. What advice does she give to save money?",
+                "options": ["Buy in bulk", "Put money into the bank", "Use the public transport"],
+                "answer": "Use the public transport",
+                "translation": "Nghe một người phụ nữ đưa ra lời khuyên về việc tiết kiệm tiền. Cô ấy đưa ra lời khuyên gì để tiết kiệm tiền?",
+                "explanation": "=> C. Use the public transport (Sử dụng phương tiện giao thông công cộng)"
             },
             {
                 "id": "C13",
-                "question": "What subject does he teach?",
-                "options": [
-                    "History",
-                    "Geography",
-                    "English"
-                ],
-                "answer": "Geography",
-                "translation": "Anh ấy dạy môn gì?",
-                "explanation": "=> Geography"
+                "question": "Listen to the conversation about the directions. Where is the library located?",
+                "options": ["In front of the square", "On the left of the square", "Behind the square"],
+                "answer": "On the left of the square",
+                "translation": "Nghe đoạn hội thoại về các hướng đi. Thư viện nằm ở đâu?",
+                "explanation": "=> B. On the left of the square (Ở bên trái quảng trường)."
             }
         ],
         "matchingTask": {
             "id": "C14",
-            "topic": "Learning languages",
+            "topic": "Online shopping",
             "speakers": [
                 {
                     "id": "A",
                     "name": "Person A",
-                    "answer": "Using apps",
-                    "script": "I learn Spanish using an app on my phone. I practice for 15 minutes every day during my commute. The gamification makes it fun and keeps me motivated."
+                    "answer": "The products are delivered",
+                    "script": "I used to be the person who didn’t like shopping online, but ever since I experienced home delivery, I no longer shop in stores. When I shop online, the delivery person brings the package right to my door, even up to my floor, and knocks on my apartment door, so I don’t even need to step outside. I really enjoy this convenience."
                 },
                 {
                     "id": "B",
                     "name": "Person B",
-                    "answer": "Watching foreign films",
-                    "script": "My method of learning Japanese is through watching Japanese films without subtitles. At first, I understood nothing, but over time, I started picking up common phrases and expressions."
+                    "answer": "It is cheaper",
+                    "script": "Shopping online has helped me save quite a bit of money. After a few months of online shopping, I was able to save enough to buy a new bicycle. But don't get me wrong, I haven't been eating any less or cutting back on the groceries I buy. It's just that online shopping allows me to compare prices and choose the store with the best deal."
                 },
                 {
                     "id": "C",
                     "name": "Person C",
-                    "answer": "Taking classes",
-                    "script": "I signed up for a French class at the community center. Having a teacher correct my mistakes and explain grammar rules really accelerates my learning process."
+                    "answer": "It saves time",
+                    "script": "I’m a pretty busy person, and I often don’t have enough time because of my hectic work schedule. That’s why I always shop online to save time. This way, I don’t need to go to the store in person, and someone will deliver the items directly to me. Additionally, online shopping is very convenient because, with just a few clicks, I can buy everything I want without having to go from one store to another."
                 },
                 {
                     "id": "D",
                     "name": "Person D",
-                    "answer": "Talking to native speakers",
-                    "script": "The best way I've found to learn Italian is by talking to native speakers. I joined an online language exchange platform where I teach English and learn Italian in return."
+                    "answer": "There are more choices",
+                    "script": "I don't shop online because it's cheaper or because of the fast shipping. I shop online because, when browsing online stores, I have a wide range of choices. For the same item, there are many different types and brands for me to choose from and compare, which allows me to pick the one I like the most."
                 }
             ],
             "options": [
-                "Using apps",
-                "Watching foreign films",
-                "Taking classes",
-                "Talking to native speakers"
+                "It is cheaper",
+                "The products are delivered",
+                "There are more choices",
+                "It saves time"
             ]
         },
         "opinionTask": {
             "id": "C15",
-            "topic": "Public transport",
+            "topic": "Changes in the workplace",
             "statements": [
                 {
-                    "text": "Public transport reduces pollution",
-                    "answer": "Both"
-                },
-                {
-                    "text": "Buses are often unreliable",
-                    "answer": "Woman"
-                },
-                {
-                    "text": "Trains are too expensive",
+                    "text": "Continuity is important when planning a career",
                     "answer": "Man"
                 },
                 {
-                    "text": "More investment in public transport is needed",
+                    "text": "Job security cannot be guaranteed",
+                    "answer": "Woman"
+                },
+                {
+                    "text": "Job satisfaction is important for motivator",
                     "answer": "Both"
+                },
+                {
+                    "text": "Technological improvement is good for the economy",
+                    "answer": "Man"
                 }
             ],
-            "script": "M: Do you use public transport often? W: Yes, I take the bus to work every day. But honestly, they're often late or don't come at all. It can be really frustrating. M: I prefer trains, but the ticket prices keep going up. It's getting too expensive for daily commutes. W: At least we both agree that public transport helps reduce pollution. Fewer cars on the road means cleaner air. M: Definitely. But for that to work, we need more investment in the system. Better services, more routes, lower prices. W: I completely agree. If the government invested more, more people would use public transport."
+            "script": "W: I'm thinking about switching to another job.\nM: Why? Your current job is very stable.\nW: I think I should try my hand at different fields. The jobs I take should only last around 1-2 years. I don't like staying too long in one job or with one company; that would be really boring. Nowadays, many companies offer temporary jobs, which allows me to try out different fields.\nM: Oh, but if you stay longer at one company, they might offer you more opportunities for career advancement. I always want to stay long-term with a company that suits me.\nW: Nowadays, young people who have just graduated from university are very talented and have many qualifications. I'm afraid that if I stick with one job and don't change to accumulate knowledge in various fields, it will be hard to compete with these young, talented people.\nM: We also need to consider job satisfaction. If we do well, we need to be encouraged and motivated. That helps employees feel that their efforts and contributions to the company are worthwhile.\nW: You're absolutely right, I couldn't agree more. In this age of technological advancement, many jobs have been replaced by machines. More and more people are losing their jobs due to the development of technology and engineering. I think this is a concerning issue.\nM: I don't think so. Technology is helping us do our work more quickly, easily, and conveniently than ever. If we know how to leverage technology in our jobs, productivity will increase significantly, which in turn helps develop the economy and society."
         },
         "extraQuestions": [
             {
                 "id": "C16.1",
-                "question": "What are the benefits of physical exercise?",
+                "question": "Why hasn't he gone to college?",
                 "options": [
-                    "Better mental health",
-                    "Weight loss only",
-                    "Social benefits only"
+                    "He wasn't ready to start higher education",
+                    "He didn't have money",
+                    "He didn't want to"
                 ],
-                "answer": "Better mental health",
-                "translation": "Lợi ích của tập thể dục là gì?",
-                "explanation": "=> Better mental health"
+                "answer": "He wasn't ready to start higher education",
+                "translation": "Tại sao anh ấy chưa đi học đại học?",
+                "explanation": "=> He wasn't ready to start higher education (Anh ấy chưa sẵn sàng để bắt đầu học cao hơn)"
             },
             {
                 "id": "C16.2",
-                "question": "What is the recommended amount of exercise per week?",
+                "question": "Why did he decide to travel for 2 years?",
                 "options": [
-                    "At least 150 minutes",
-                    "60 minutes",
-                    "30 minutes"
+                    "To be more independent",
+                    "To learn a new language",
+                    "To relax"
                 ],
-                "answer": "At least 150 minutes",
-                "translation": "Lượng tập thể dục khuyến nghị mỗi tuần là bao nhiêu?",
-                "explanation": "=> At least 150 minutes"
+                "answer": "To be more independent",
+                "translation": "Tại sao anh ấy quyết định đi du lịch trong 2 năm?",
+                "explanation": "=> To be more independent (Để trở nên độc lập hơn)."
             },
             {
                 "id": "C17.1",
-                "question": "What does the critic say about the performance?",
+                "question": "Why is the book so popular?",
                 "options": [
-                    "The lead actor was outstanding",
-                    "The supporting cast was better",
-                    "The acting was average"
+                    "It uses simple language to describe complex ideas",
+                    "It has great characters",
+                    "It is a romance novel"
                 ],
-                "answer": "The lead actor was outstanding",
-                "translation": "Nhà phê bình nói gì về buổi biểu diễn?",
-                "explanation": "=> The lead actor was outstanding"
+                "answer": "It uses simple language to describe complex ideas",
+                "translation": "Tại sao cuốn sách này lại phổ biến đến vậy?",
+                "explanation": "=> It uses simple language to describe complex ideas (Nó sử dụng ngôn ngữ đơn giản để mô tả các ý tưởng phức tạp)."
             },
             {
                 "id": "C17.2",
-                "question": "What is the overall verdict on the show?",
+                "question": "What do people criticize about the book?",
                 "options": [
-                    "It exceeded expectations",
-                    "It was disappointing",
-                    "It was average"
+                    "It is similar to the previous book about the scientist",
+                    "It is too short",
+                    "It lacks details"
                 ],
-                "answer": "It exceeded expectations",
-                "translation": "Đánh giá chung về chương trình là gì?",
-                "explanation": "=> It exceeded expectations"
+                "answer": "It is similar to the previous book about the scientist",
+                "translation": "Cuốn sách bị mọi người chỉ trích về điều gì?",
+                "explanation": "=> It is similar to the previous book about the scientist (Nó tương tự với cuốn sách trước đó về nhà khoa học)"
             }
         ]
     },
@@ -3529,268 +3269,216 @@ export const listeningData = [
         "questions": [
             {
                 "id": "C1",
-                "question": "What does he do every morning?",
-                "options": [
-                    "Jogging",
-                    "Swimming",
-                    "Yoga"
-                ],
-                "answer": "Jogging",
-                "translation": "Sáng nào anh ấy cũng làm gì?",
-                "explanation": "=> Jogging"
+                "question": "Tom is calling his friend. What time will they meet?",
+                "options": ["7 pm", "8 pm", "9 pm"],
+                "answer": "7 pm",
+                "translation": "Tom đang gọi điện cho bạn mình. Mấy giờ họ sẽ gặp nhau?",
+                "explanation": "=> A. 7 pm (7 giờ tối)."
             },
             {
                 "id": "C2",
-                "question": "Where did she buy the dress?",
-                "options": [
-                    "Online",
-                    "At the mall",
-                    "From a friend"
-                ],
-                "answer": "Online",
-                "translation": "Cô ấy mua váy ở đâu?",
-                "explanation": "=> Online"
+                "question": "A man is calling his mother. How long will he be late?",
+                "options": ["10 minutes", "15 minutes", "20 minutes"],
+                "answer": "10 minutes",
+                "translation": "Một người đàn ông đang gọi điện cho mẹ mình. Anh ấy sẽ trễ bao lâu?",
+                "explanation": "=> A. 10 minutes (10 phút)."
             },
             {
                 "id": "C3",
-                "question": "How many languages does he speak?",
-                "options": [
-                    "Two",
-                    "Three",
-                    "Four"
-                ],
-                "answer": "Three",
-                "translation": "Anh ấy nói được bao nhiêu ngôn ngữ?",
-                "explanation": "=> Three"
+                "question": "What is Mary's number?",
+                "options": ["335 3902", "555 3920", "333 3029"],
+                "answer": "555 3920",
+                "translation": "Số điện thoại của Mary?",
+                "explanation": "=> B. 555 3920"
             },
             {
                 "id": "C4",
-                "question": "What time does the bus arrive?",
-                "options": [
-                    "8:15",
-                    "8:30",
-                    "8:45"
-                ],
-                "answer": "8:30",
-                "translation": "Xe buýt đến lúc mấy giờ?",
-                "explanation": "=> 8:30"
+                "question": "A man is calling his friend. Where will they meet?",
+                "options": ["Opposite the park", "Behind the park", "By the park"],
+                "answer": "By the park",
+                "translation": "Một người đàn ông đang gọi điện cho bạn mình. Họ sẽ gặp nhau ở đâu?",
+                "explanation": "=> C. By the park (Bên cạnh công viên)."
             },
             {
                 "id": "C5",
-                "question": "What does she do for a living?",
-                "options": [
-                    "Nurse",
-                    "Teacher",
-                    "Designer"
-                ],
-                "answer": "Designer",
-                "translation": "Cô ấy làm nghề gì?",
-                "explanation": "=> Designer"
+                "question": "What type of location does the speaker enjoy living in most?",
+                "options": ["The countryside", "The suburbs", "The city"],
+                "answer": "The city",
+                "translation": "Kiểu địa điểm nào mà người nói thích sống nhất?",
+                "explanation": "=> C. The city (Thành phố)."
             },
             {
                 "id": "C6",
-                "question": "How far is the hospital from here?",
-                "options": [
-                    "2 miles",
-                    "5 miles",
-                    "10 miles"
-                ],
-                "answer": "5 miles",
-                "translation": "Bệnh viện cách đây bao xa?",
-                "explanation": "=> 5 miles"
+                "question": "Why did she return to the shop?",
+                "options": ["To exchange a shirt", "To buy a skirt", "To exchange a dress"],
+                "answer": "To exchange a shirt",
+                "translation": "Tại sao cô ấy quay lại cửa hàng?",
+                "explanation": "=> A. To exchange a shirt (Để đổi một chiếc áo sơ mi)."
             },
             {
                 "id": "C7",
-                "question": "What did they have for dessert?",
-                "options": [
-                    "Ice cream",
-                    "Cake",
-                    "Fruit salad"
-                ],
-                "answer": "Cake",
-                "translation": "Họ ăn tráng miệng gì?",
-                "explanation": "=> Cake"
+                "question": "Listen to a man talking about the game he is playing. What is the game stopping him from doing?",
+                "options": ["Play", "Change characters", "Win"],
+                "answer": "Win",
+                "translation": "Nghe một người đàn ông nói về trò chơi mà anh ấy đang chơi. Trò chơi đang ngăn cản anh ấy làm gì?",
+                "explanation": "=> C. Win (Thắng)."
             },
             {
                 "id": "C8",
-                "question": "When did he start working here?",
-                "options": [
-                    "In January",
-                    "In March",
-                    "In June"
-                ],
-                "answer": "In March",
-                "translation": "Anh ấy bắt đầu làm việc ở đây khi nào?",
-                "explanation": "=> In March"
+                "question": "What's the main change managers are going to do?",
+                "options": ["Adjust the schedule", "Reduce the budget", "Relocate the meeting"],
+                "answer": "Adjust the schedule",
+                "translation": "Thay đổi chính mà các quản lý sắp thực hiện là gì?",
+                "explanation": "=> A. Adjust the schedule (Điều chỉnh lịch trình)."
             },
             {
                 "id": "C9",
-                "question": "How much does the membership cost?",
-                "options": [
-                    "30 pounds monthly",
-                    "50 pounds monthly",
-                    "75 pounds monthly"
-                ],
-                "answer": "50 pounds monthly",
-                "translation": "Phí thành viên là bao nhiêu?",
-                "explanation": "=> 50 pounds monthly"
+                "question": "What is the woman doing?",
+                "options": ["Cleaning", "Swimming", "Crying"],
+                "answer": "Cleaning",
+                "translation": "Người phụ nữ đang làm gì?",
+                "explanation": "=> A. Cleaning (Dọn dẹp)."
             },
             {
                 "id": "C10",
-                "question": "What is the main topic of the lecture?",
-                "options": [
-                    "Climate change",
-                    "Economics",
-                    "History"
-                ],
-                "answer": "Climate change",
-                "translation": "Chủ đề chính của bài giảng là gì?",
-                "explanation": "=> Climate change"
+                "question": "Listen to a man talking about his journey to work. How does the man usually go to work?",
+                "options": ["By motorbike", "By car", "By train"],
+                "answer": "By car",
+                "translation": "Nghe một người đàn ông nói về hành trình đi làm của mình. Người đàn ông thường đi làm bằng phương tiện gì?",
+                "explanation": "=> B. By car (Bằng xe hơi)."
             },
             {
                 "id": "C11",
-                "question": "Where will the wedding be held?",
-                "options": [
-                    "In a garden",
-                    "In a church",
-                    "At the beach"
-                ],
-                "answer": "In a garden",
-                "translation": "Đám cưới sẽ diễn ra ở đâu?",
-                "explanation": "=> In a garden"
+                "question": "Listen to an instruction. Which light shows that the computer is on?",
+                "options": ["Green", "Red", "Blue"],
+                "answer": "Blue",
+                "translation": "Nghe một hướng dẫn. Đèn nào cho thấy máy tính đang bật?",
+                "explanation": "=> C. Blue (Màu xanh lam)."
             },
             {
                 "id": "C12",
-                "question": "How old is the building?",
-                "options": [
-                    "50 years",
-                    "100 years",
-                    "200 years"
-                ],
-                "answer": "100 years",
-                "translation": "Tòa nhà bao nhiêu tuổi?",
-                "explanation": "=> 100 years"
+                "question": "According to the man, what will influence the development of sea transport?",
+                "options": ["It is mainly attractive because of its low cost.", "The use of technology will increase"],
+                "answer": "The use of technology will increase",
+                "translation": "Theo người đàn ông, điều gì sẽ ảnh hưởng đến sự phát triển của vận tải biển?",
+                "explanation": "=> B. The use of technology will increase (Việc sử dụng công nghệ sẽ tăng lên)."
             },
             {
                 "id": "C13",
-                "question": "What does she recommend?",
-                "options": [
-                    "The new cafe",
-                    "The old restaurant",
-                    "The food truck"
-                ],
-                "answer": "The new cafe",
-                "translation": "Cô ấy giới thiệu gì?",
-                "explanation": "=> The new cafe"
+                "question": "Listen to a man talking. What is not working?",
+                "options": ["The Wifi", "The computer", "The printer"],
+                "answer": "The computer",
+                "translation": "Nghe một người đàn ông nói. Cái gì không hoạt động?",
+                "explanation": "=> B. The computer (Máy tính)."
             }
         ],
         "matchingTask": {
             "id": "C14",
-            "topic": "Daily routines",
+            "topic": "Shopping habits",
             "speakers": [
                 {
                     "id": "A",
                     "name": "Person A",
-                    "answer": "Early morning exercise",
-                    "script": "I wake up at 5am every morning to go for a run before work. It helps me start the day with energy and focus. By the time I get to the office, I'm already feeling productive."
+                    "answer": "Prefers shopping with friends",
+                    "script": ""
                 },
                 {
                     "id": "B",
                     "name": "Person B",
-                    "answer": "Evening meditation",
-                    "script": "At the end of each day, I sit quietly for 20 minutes and meditate. It helps me process everything that happened during the day and sleep better at night."
+                    "answer": "Likes shopping in some quiet places",
+                    "script": ""
                 },
                 {
                     "id": "C",
                     "name": "Person C",
-                    "answer": "Afternoon nap",
-                    "script": "I always take a short nap after lunch, about 15 to 20 minutes. It might sound lazy, but research shows that a power nap can significantly boost productivity for the rest of the afternoon."
+                    "answer": "Prefers shopping on holidays",
+                    "script": ""
                 },
                 {
                     "id": "D",
                     "name": "Person D",
-                    "answer": "Reading before bed",
-                    "script": "Every night before I go to sleep, I read for at least 30 minutes. It's my way of winding down and escaping from the digital world. I find that it helps me fall asleep faster too."
+                    "answer": "Likes shopping alone",
+                    "script": ""
                 }
             ],
             "options": [
-                "Early morning exercise",
-                "Evening meditation",
-                "Afternoon nap",
-                "Reading before bed"
+                "Prefers shopping with friends",
+                "Likes shopping alone",
+                "Likes shopping in some quiet places",
+                "Prefers shopping on holidays"
             ]
         },
         "opinionTask": {
             "id": "C15",
-            "topic": "Healthy eating",
+            "topic": "The internet",
             "statements": [
                 {
-                    "text": "Organic food is worth the extra cost",
+                    "text": "There is too much information on the Internet",
                     "answer": "Woman"
                 },
                 {
-                    "text": "People should cook at home more often",
+                    "text": "Finding information on the Internet requires skills",
                     "answer": "Both"
                 },
                 {
-                    "text": "Fast food should be taxed more",
+                    "text": "The use of the Internet affects the way we think",
                     "answer": "Man"
                 },
                 {
-                    "text": "Nutrition education should start in schools",
+                    "text": "The internet makes young people less patient",
                     "answer": "Both"
                 }
             ],
-            "script": "M: Do you think organic food is really better for us? W: Absolutely. I think it's worth paying more for food that's grown without harmful chemicals. My family switched to organic two years ago. M: I'm not entirely convinced about that, but I do think people should cook at home more. Restaurant food and takeaway is often unhealthy. W: I agree completely. Home-cooked meals are so much better for you. M: And maybe we should tax fast food more heavily to discourage people from eating it. W: That might be too extreme, but I think teaching children about nutrition in schools would be more effective. M: Yes, nutrition education should definitely start early. If kids learn about healthy eating in school, they'll make better choices as adults."
+            "script": "M: Hi, Emma. You know, I've been thinking a lot about how much the internet has improved lately. It's really starting to shape the way our lives develop.\nW: Really? In what way?\nM: Well, take a look at this article I found. It talks about how the internet influences everything-from how we learn to how we make decisions.\nW: Ah, so you're saying the internet gives us access to a lot of information? That's true in my opinion.\nM: Hmm... not exactly. Not exactly. I think the information is helpful, but you actually need strong searching skills to find what's useful. And the problem is, too many people fall for fake news.\nW: That's a fair point. Just last week, I saw this post about a new product that promises fast weight loss. It had thousands of likes and comments, but when I looked into it, it turned out to be a complete scam.\nM: That's a perfect example. I really believe there should be stricter control. Authorities need to take legal action and provide clearer guidelines. The internet has a huge impact on the way people think and behave.\nW: I'm not sure I agree with that part. I think we just need to be more careful when using the internet. People should take responsibility to double-check things before buying or sharing. If we bring in too many laws, we might limit people's freedom to express their opinions.\nM: I get your point, but still, we can't ignore the damage some of this content causes. There's so much being created every second-especially short-form content. It's fast and addictive. And honestly, I think it's making young people more impatient.\nW: I completely agree. My younger cousin can't even sit through a one-minute video without skipping ahead. It's like no one wants to wait anymore.\nM: Exactly. That's why I think some sort of regulation is necessary-not to control people's voices, but to help improve the quality of what we see online.\nW: That might help, as long as we don't go too far with restrictions."
         },
         "extraQuestions": [
             {
                 "id": "C16.1",
-                "question": "What does the speaker think about fast fashion?",
+                "question": "What factor has the greatest influence on concentration?",
                 "options": [
-                    "It is harmful to the environment",
-                    "It is necessary",
-                    "It is affordable"
+                    "Concentration is mainly affected by interest.",
+                    "The key factor influencing concentration is diet & nutrition.",
+                    "Concentration depends mostly on environment."
                 ],
-                "answer": "It is harmful to the environment",
-                "translation": "Người nói nghĩ gì về thời trang nhanh?",
-                "explanation": "=> It is harmful to the environment"
+                "answer": "Concentration depends mostly on environment.",
+                "translation": "Yếu tố nào có ảnh hưởng lớn nhất đến sự tập trung?",
+                "explanation": "=> Concentration depends mostly on environment. (Sự tập trung phụ thuộc chủ yếu vào môi trường)."
             },
             {
                 "id": "C16.2",
-                "question": "What can consumers do to help?",
+                "question": "Why do some people fail on concentrate?",
                 "options": [
-                    "Buy fewer but better quality items",
-                    "Stop buying clothes",
-                    "Only buy expensive brands"
+                    "Because they lack interest.",
+                    "Because the environment around them may be too noisy.",
+                    "Because they often fail to consider the limits of concentration"
                 ],
-                "answer": "Buy fewer but better quality items",
-                "translation": "Người tiêu dùng có thể làm gì để giúp đỡ?",
-                "explanation": "=> Buy fewer but better quality items"
+                "answer": "Because they often fail to consider the limits of concentration",
+                "translation": "Tại sao một số người không thể tập trung?",
+                "explanation": "=> Because they often fail to consider the limits of concentration. (Bởi vì họ thường không xem xét đến giới hạn của sự tập trung)."
             },
             {
                 "id": "C17.1",
-                "question": "What makes this artist unique?",
+                "question": "What is the current problem in his team?",
                 "options": [
-                    "Their use of unconventional materials",
-                    "Their fame",
-                    "Their training"
+                    "Some members are not satisfied with their salary",
+                    "The work is unevenly allocated.",
+                    "The team members lose confidence"
                 ],
-                "answer": "Their use of unconventional materials",
-                "translation": "Điều gì làm cho nghệ sĩ này độc đáo?",
-                "explanation": "=> Their use of unconventional materials"
+                "answer": "The team members lose confidence",
+                "translation": "Vấn đề hiện tại trong đội của anh ấy là gì?",
+                "explanation": "=> The team members lose confidence (Các thành viên trong đội bị mất tự tin)."
             },
             {
                 "id": "C17.2",
-                "question": "What does the reviewer predict about this artist's future?",
+                "question": "What quality is the team leader looking for the new member?",
                 "options": [
-                    "They will continue to innovate",
-                    "They will retire soon",
-                    "They will change style"
+                    "Someone who is able to resolve conflicts within the group",
+                    "Someone who can encourage all team members to share their ideas",
+                    "Someone who can set a realistic goal"
                 ],
-                "answer": "They will continue to innovate",
-                "translation": "Nhà phê bình dự đoán gì về tương lai của nghệ sĩ?",
-                "explanation": "=> They will continue to innovate"
+                "answer": "Someone who can set a realistic goal",
+                "translation": "Phẩm chất nào mà trưởng nhóm đang tìm kiếm ở thành viên mới?",
+                "explanation": "=> Someone who can set a realistic goal (Một người có thể đặt ra mục tiêu thực tế)."
             }
         ]
     },
@@ -3800,268 +3488,216 @@ export const listeningData = [
         "questions": [
             {
                 "id": "C1",
-                "question": "What is the best time to visit the park?",
-                "options": [
-                    "Morning",
-                    "Afternoon",
-                    "Evening"
-                ],
-                "answer": "Morning",
-                "translation": "Thời điểm tốt nhất để thăm công viên là khi nào?",
-                "explanation": "=> Morning"
+                "question": "A woman is going to the cinema with her husband. What time does the movie begin?",
+                "options": ["6:40", "7:00", "6:00"],
+                "answer": "6:40",
+                "translation": "Một người phụ nữ đang đi xem phim với chồng. Bộ phim bắt đầu lúc mấy giờ?",
+                "explanation": "=> A. 6:40"
             },
             {
                 "id": "C2",
-                "question": "How many years has she been teaching?",
-                "options": [
-                    "5 years",
-                    "10 years",
-                    "15 years"
-                ],
-                "answer": "10 years",
-                "translation": "Cô ấy đã dạy được bao nhiêu năm?",
-                "explanation": "=> 10 years"
+                "question": "How many pages of the assignment?",
+                "options": ["5", "6", "4"],
+                "answer": "4",
+                "translation": "Bài tập có bao nhiêu trang?",
+                "explanation": "=> C. 4."
             },
             {
                 "id": "C3",
-                "question": "What does he want to change about his job?",
-                "options": [
-                    "The working hours",
-                    "The salary",
-                    "The location"
-                ],
-                "answer": "The working hours",
-                "translation": "Anh ấy muốn thay đổi điều gì về công việc?",
-                "explanation": "=> The working hours"
+                "question": "Jane is calling her friend Martha. What time are they going to meet?",
+                "options": ["5:30", "6:30", "7:30"],
+                "answer": "5:30",
+                "translation": "Jane đang gọi điện cho bạn mình là Martha. Mấy giờ họ sẽ gặp nhau?",
+                "explanation": "=> A. 5:30"
             },
             {
                 "id": "C4",
-                "question": "Where is the nearest bookshop?",
-                "options": [
-                    "On High Street",
-                    "At the corner",
-                    "Near the church"
-                ],
-                "answer": "On High Street",
-                "translation": "Hiệu sách gần nhất ở đâu?",
-                "explanation": "=> On High Street"
+                "question": "A teacher is talking to her students. Where are the students now?",
+                "options": ["In a detached house", "In a townhouse", "In a country house"],
+                "answer": "In a townhouse",
+                "translation": "Một giáo viên đang nói chuyện với học sinh của mình. Học sinh hiện đang ở đâu?",
+                "explanation": "=> B. In a townhouse (Trong một nhà phố)."
             },
             {
                 "id": "C5",
-                "question": "How much did the meal cost?",
-                "options": [
-                    "25 pounds",
-                    "35 pounds",
-                    "45 pounds"
-                ],
-                "answer": "35 pounds",
-                "translation": "Bữa ăn giá bao nhiêu?",
-                "explanation": "=> 35 pounds"
+                "question": "Listen to a man calling his friend. Why does he make the call?",
+                "options": ["To ask for directions", "To invite her out", "To tell her he will be late"],
+                "answer": "To tell her he will be late",
+                "translation": "Nghe một người đàn ông gọi điện cho bạn mình. Tại sao anh ấy gọi điện?",
+                "explanation": "=> C. To tell her he will be late (Để nói với cô ấy rằng anh ấy sẽ đến trễ)."
             },
             {
                 "id": "C6",
-                "question": "What did he think of the concert?",
-                "options": [
-                    "It was amazing",
-                    "It was too loud",
-                    "It was boring"
-                ],
-                "answer": "It was amazing",
-                "translation": "Anh ấy nghĩ gì về buổi hòa nhạc?",
-                "explanation": "=> It was amazing"
+                "question": "Listen to two friends talking about their plans for the holiday. What are they going to do on this holiday?",
+                "options": ["Going camping", "Traveling abroad", "Teaching"],
+                "answer": "Teaching",
+                "translation": "Nghe hai người bạn nói về kế hoạch nghỉ lễ của họ. Họ sẽ làm gì trong kỳ nghỉ này?",
+                "explanation": "=> C. Teaching (Dạy học)."
             },
             {
                 "id": "C7",
-                "question": "When will the new office open?",
-                "options": [
-                    "In September",
-                    "In October",
-                    "In November"
-                ],
-                "answer": "In October",
-                "translation": "Văn phòng mới sẽ mở cửa khi nào?",
-                "explanation": "=> In October"
+                "question": "Listen to a student explaining the project. Why did the students do the experiment on the tree?",
+                "options": ["To study the effects of pollution", "To measure the speed of the plant's growth", "To observe how trees absorb water"],
+                "answer": "To study the effects of pollution",
+                "translation": "Nghe một học sinh giải thích về dự án. Tại sao các học sinh làm thí nghiệm trên cây?",
+                "explanation": "=> A. To study the effects of pollution (Để nghiên cứu tác động của ô nhiễm)."
             },
             {
                 "id": "C8",
-                "question": "What does she enjoy most about her job?",
-                "options": [
-                    "Meeting people",
-                    "The salary",
-                    "Flexible hours"
-                ],
-                "answer": "Meeting people",
-                "translation": "Cô ấy thích nhất điều gì về công việc?",
-                "explanation": "=> Meeting people"
+                "question": "A man is talking about his day. What did he do in the morning?",
+                "options": ["Look at a view", "Have breakfast at a café", "Go for a walk in the park"],
+                "answer": "Look at a view",
+                "translation": "Một người đàn ông đang nói về ngày của mình. Anh ấy đã làm gì vào buổi sáng?",
+                "explanation": "=> A. Look at a view (Ngắm cảnh)."
             },
             {
                 "id": "C9",
-                "question": "How does he relax after work?",
-                "options": [
-                    "Playing guitar",
-                    "Watching TV",
-                    "Going for a walk"
-                ],
-                "answer": "Playing guitar",
-                "translation": "Anh ấy thư giãn sau giờ làm như thế nào?",
-                "explanation": "=> Playing guitar"
+                "question": "Listen to a girl calling with her mother. Why did she call her mother to pick up at the airport?",
+                "options": ["Happy", "Tired", "Sick"],
+                "answer": "Sick",
+                "translation": "Nghe một cô gái gọi điện cho mẹ cô ấy. Tại sao cô ấy gọi mẹ đến đón ở sân bay?",
+                "explanation": "=> C. Sick (Bị ốm)."
             },
             {
                 "id": "C10",
-                "question": "Where is the meeting room?",
-                "options": [
-                    "On the ground floor",
-                    "On the first floor",
-                    "On the second floor"
-                ],
-                "answer": "On the first floor",
-                "translation": "Phòng họp ở đâu?",
-                "explanation": "=> On the first floor"
+                "question": "Listen to the man talking. What did he leave in the yard?",
+                "options": ["a laptop", "shoes", "a shirt"],
+                "answer": "shoes",
+                "translation": "Nghe người đàn ông nói. Anh ấy đã để quên gì ở sân?",
+                "explanation": "=> B. shoes (Giày)."
             },
             {
                 "id": "C11",
-                "question": "What did the doctor advise?",
-                "options": [
-                    "Drink more water",
-                    "Exercise more",
-                    "Sleep more"
-                ],
-                "answer": "Drink more water",
-                "translation": "Bác sĩ khuyên gì?",
-                "explanation": "=> Drink more water"
+                "question": "Listen to a conversation. What is the woman's most important task for the upcoming conference?",
+                "options": ["Organizing an informal event", "Sending out invitations", "Giving a formal address"],
+                "answer": "Giving a formal address",
+                "translation": "Nghe một đoạn hội thoại. Nhiệm vụ quan trọng nhất của người phụ nữ cho hội nghị sắp tới là gì?",
+                "explanation": "=> C. Giving a formal address (Đưa ra một bài diễn văn trang trọng)."
             },
             {
                 "id": "C12",
-                "question": "How many students passed the exam?",
-                "options": [
-                    "Half of them",
-                    "Most of them",
-                    "All of them"
-                ],
-                "answer": "Most of them",
-                "translation": "Bao nhiêu học sinh đã qua kỳ thi?",
-                "explanation": "=> Most of them"
+                "question": "Two people are going to the picnic with their friends. What did they bring?",
+                "options": ["Sandwiches", "Drinks", "Fruit"],
+                "answer": "Fruit",
+                "translation": "Hai người đang đi dã ngoại với bạn bè của họ. Họ đã mang theo gì?",
+                "explanation": "=> C. Fruit (Trái cây)."
             },
             {
                 "id": "C13",
-                "question": "What is she planning for the weekend?",
-                "options": [
-                    "A barbecue",
-                    "A trip to the beach",
-                    "A movie night"
-                ],
-                "answer": "A barbecue",
-                "translation": "Cô ấy lên kế hoạch gì cho cuối tuần?",
-                "explanation": "=> A barbecue"
+                "question": "A man is talking to his friend. Why does he choose to be a doctor?",
+                "options": ["to make a lot of money", "to help people", "because he is interested in medicine"],
+                "answer": "to help people",
+                "translation": "Một người đàn ông đang nói chuyện với bạn mình. Tại sao anh ấy chọn làm bác sĩ?",
+                "explanation": "=> B. to help people (Để giúp đỡ mọi người)."
             }
         ],
         "matchingTask": {
             "id": "C14",
-            "topic": "Hobbies",
+            "topic": "Sport",
             "speakers": [
                 {
                     "id": "A",
                     "name": "Person A",
-                    "answer": "Photography",
-                    "script": "I got my first camera as a birthday gift three years ago, and since then, photography has become my main hobby. I love capturing landscapes and portraits. I even started selling some of my photos online."
+                    "answer": "plays in a team sport",
+                    "script": ""
                 },
                 {
                     "id": "B",
                     "name": "Person B",
-                    "answer": "Painting",
-                    "script": "I started painting during the lockdown as a way to pass the time. Now I can't stop! I mainly do watercolor paintings of flowers and nature scenes. It's very relaxing and therapeutic."
+                    "answer": "spends time in the water",
+                    "script": ""
                 },
                 {
                     "id": "C",
                     "name": "Person C",
-                    "answer": "Playing chess",
-                    "script": "I've been playing chess since I was eight years old. My grandfather taught me, and now I participate in local tournaments. It's great for mental sharpness and strategic thinking."
+                    "answer": "plays in the street",
+                    "script": ""
                 },
                 {
                     "id": "D",
                     "name": "Person D",
-                    "answer": "Dancing",
-                    "script": "I discovered my love for dancing when I joined a salsa class with my friends. Now I also do hip-hop and contemporary dance. It's a fantastic way to exercise and express yourself creatively."
+                    "answer": "does sports with animals",
+                    "script": ""
                 }
             ],
             "options": [
-                "Photography",
-                "Painting",
-                "Playing chess",
-                "Dancing"
+                "plays in the street",
+                "spends time in the water",
+                "plays in a team sport",
+                "does sports with animals"
             ]
         },
         "opinionTask": {
             "id": "C15",
-            "topic": "Education system",
+            "topic": "University and technology",
             "statements": [
                 {
-                    "text": "Exams are not the best way to test knowledge",
-                    "answer": "Man"
-                },
-                {
-                    "text": "Practical skills are as important as academic knowledge",
+                    "text": "Technology helps make education more accessible",
                     "answer": "Both"
                 },
                 {
-                    "text": "Class sizes should be smaller",
+                    "text": "Social interaction is important",
                     "answer": "Woman"
                 },
                 {
-                    "text": "Teachers deserve higher salaries",
-                    "answer": "Both"
+                    "text": "The diverse curriculum is not an advantage",
+                    "answer": "Man"
+                },
+                {
+                    "text": "University competition should be encouraged",
+                    "answer": "Woman"
                 }
             ],
-            "script": "M: I've always thought that exams are not really the best way to test what students know. Many smart people just don't do well under exam pressure. W: I see your point, but exams do have some value. What I think is more important is that class sizes should be much smaller. With fewer students, teachers can give more individual attention. M: That's true. And speaking of what we teach, I think practical skills are just as important as academic knowledge. Students need real-world skills to succeed. W: Absolutely. A mix of theoretical and practical learning would be ideal. And you know what else? Teachers play such a crucial role, they really deserve higher salaries. M: I couldn't agree more. Teaching is one of the most important professions, and it should be compensated accordingly."
+            "script": "M: What course are you taking these days?\nW: I'm currently pursuing an online university degree. It's really suitable and convenient because I can study while working. Technology has truly made education much more accessible.\nM: That's amazing. I still remember the old days when you had to stand in long lines to borrow a book from the library, which took a lot of time. And by the time it was your turn, the book was often already gone. Now, when we want to read a book, we just type the title online and have it immediately.\nW: Exactly, study materials were really scarce back then, unlike now.\nM: That’s why I’m thinking, why not make all school classes online? It would save a lot of costs.\nW: I think attending school in person is still very necessary because meeting friends and socializing helps us gain more soft skills.\nM: Don’t forget that young people do have a reputation for being less social. They often prefer talking on social media rather than meeting in person.\nW: Additionally, I think the variety of courses available nowadays is also a good way to improve education."
         },
         "extraQuestions": [
             {
                 "id": "C16.1",
-                "question": "What does the expert say about renewable energy?",
+                "question": "What is one of the main criticisms of the Regional Development Plan?",
                 "options": [
-                    "It is essential for the future",
-                    "It is too expensive",
-                    "It is not reliable"
+                    "It is too expensive to implement the plan",
+                    "It doesn't provide enough alternatives to driving",
+                    "It could harm the natural environment"
                 ],
-                "answer": "It is essential for the future",
-                "translation": "Chuyên gia nói gì về năng lượng tái tạo?",
-                "explanation": "=> It is essential for the future"
+                "answer": "It doesn't provide enough alternatives to driving",
+                "translation": "Một trong những lời chỉ trích chính đối với Kế hoạch Phát triển Vùng là gì?",
+                "explanation": "=> It doesn't provide enough alternatives to driving (Nó không cung cấp đủ các lựa chọn thay thế cho việc lái xe)"
             },
             {
                 "id": "C16.2",
-                "question": "What is the main barrier to renewable energy adoption?",
+                "question": "What challenge is the Regional Development Plan likely to face?",
                 "options": [
-                    "Initial investment costs",
-                    "Technology limitations",
-                    "Public opposition"
+                    "It may be delayed due to funding issues.",
+                    "It could face difficulties in gaining government approval.",
+                    "It is likely to meet resistance from local communities."
                 ],
-                "answer": "Initial investment costs",
-                "translation": "Rào cản chính đối với việc áp dụng năng lượng tái tạo là gì?",
-                "explanation": "=> Initial investment costs"
+                "answer": "It is likely to meet resistance from local communities.",
+                "translation": "Thách thức mà Kế hoạch Phát triển Vùng có khả năng phải đối mặt là gì?",
+                "explanation": "=> It is likely to meet resistance from local communities. (Nó có khả năng gặp phải sự phản đối từ các cộng đồng địa phương.)."
             },
             {
                 "id": "C17.1",
-                "question": "What is the reviewer's opinion about the restaurant?",
+                "question": "What happened to the TV series?",
                 "options": [
-                    "The food quality is exceptional",
-                    "The service is slow",
-                    "The prices are too high"
+                    "It was overlooked by critics",
+                    "It caught the audience's attention from the start",
+                    "It was canceled after just one season"
                 ],
-                "answer": "The food quality is exceptional",
-                "translation": "Nhà phê bình nghĩ gì về nhà hàng?",
-                "explanation": "=> The food quality is exceptional"
+                "answer": "It caught the audience's attention from the start",
+                "translation": "Điều gì đã xảy ra với bộ phim truyền hình?",
+                "explanation": "=> It caught the audience's attention from the start. (Nó đã thu hút sự chú ý của khán giả ngay từ đầu)."
             },
             {
                 "id": "C17.2",
-                "question": "Would the reviewer recommend this restaurant?",
+                "question": "According to the expert, what is the series' potential?",
                 "options": [
-                    "Yes, for special occasions",
-                    "No, it's too expensive",
-                    "Only for lunch"
+                    "It inspires young filmmakers to follow a new movie-making style.",
+                    "It helps to reach new customers.",
+                    "New seasons will be produced due to great demand."
                 ],
-                "answer": "Yes, for special occasions",
-                "translation": "Nhà phê bình có giới thiệu nhà hàng này không?",
-                "explanation": "=> Yes, for special occasions"
+                "answer": "It helps to reach new customers.",
+                "translation": "Theo chuyên gia, tiềm năng của bộ phim truyền hình là gì?",
+                "explanation": "=> It helps to reach new customers. (Nó giúp tiếp cận khách hàng mới.)"
             }
         ]
     }
